@@ -1,16 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+
+import "./App.css";
 import { Home } from "./pages";
+import { Route as RoutePath } from "./constants";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Home/>
-      </header>
-    </div>
+    <BrowserRouter basename={RoutePath.ROOT}>
+      <div className="App">
+        <Switch>
+          <Route exact path={RoutePath.HOME}>
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </BrowserRouter>
   );
 }
 
