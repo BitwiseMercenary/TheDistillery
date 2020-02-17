@@ -11,13 +11,20 @@ const StyledButton = styled.button`
   border-right: solid 2px black;
   border-radius: 10px;
   cursor: pointer;
+
+  :hover {
+    transition: all 0.5s;
+    border-left: solid 2px #e0bb00;
+    border-right: solid 2px #e0bb00;
+    color: #878787;
+  }
 `;
 const Button = (props: React.HTMLAttributes<HTMLButtonElement>) => {
   return <StyledButton {...props}>{props.children}</StyledButton>;
 };
 
 const NavContainer = styled.div`
-  width: 250px; //calc(100% - 20px);
+  width: 300px; //calc(100% - 20px);
   height: 50px;
   background-color: transparent;
   margin-top: 20px;
@@ -45,6 +52,13 @@ export const NavigationBar = () => {
       }}
     >
       Linked In
+    </Button>,
+    <Button
+      onClick={() => {
+        window.location.href = "https://github.com/DarkseidOmega/";
+      }}
+    >
+      Github
     </Button>
   ];
 
