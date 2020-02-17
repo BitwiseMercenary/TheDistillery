@@ -1,4 +1,4 @@
 export enum Route {
-  ROOT = "/TheDistillery",
+  ROOT = "",
   HOME = "/"
 }

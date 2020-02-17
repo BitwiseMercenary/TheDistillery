@@ -7,7 +7,7 @@ import { Route as RoutePath } from "./constants";
 
 function App() {
   return (
-    <BrowserRouter basename={RoutePath.ROOT}>
+    <BrowserRouter>
       <div className="App">
         <Switch>
           <Route exact path={RoutePath.HOME}>
