@@ -7,4 +7,8 @@ export const tba = `
     display: inline-table;
     width: 40vw;
     border-bottom: solid 2px #e0bb00;
+
+    @media only screen and (max-width: 605px) {
+        font-size: 40px;
+      }
 `;

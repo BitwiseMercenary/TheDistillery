@@ -1,31 +1,11 @@
 import React from "react";
 import styled from "styled-components";
+import { Button } from "../atoms";
 
 // TODO: abstract as atom
-const StyledButton = styled.button`
-  height: 40px;
-  background: transparent;
-  font-size: 20px;
-  border: none;
-  border-left: solid 2px black;
-  border-right: solid 2px black;
-  border-radius: 10px;
-  cursor: pointer;
-
-  :hover {
-    transition: all 0.5s;
-    border-left: solid 2px #e0bb00;
-    border-right: solid 2px #e0bb00;
-    color: #878787;
-  }
-`;
-const Button = (props: React.HTMLAttributes<HTMLButtonElement>) => {
-  return <StyledButton {...props}>{props.children}</StyledButton>;
-};
-
 const NavContainer = styled.div`
-  width: 300px; //calc(100% - 20px);
-  height: 50px;
+  width: 325px; //calc(100% - 20px);
+  height: 52px;
   background-color: transparent;
   margin-top: 20px;
   border: solid 3px black;
