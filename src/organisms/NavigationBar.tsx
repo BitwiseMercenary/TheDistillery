@@ -31,7 +31,7 @@ export const NavigationBar = () => {
           "https://www.linkedin.com/in/robert-mercado-30801990/";
       }}
     >
-      Linked In
+      LinkedIn
     </Button>,
     <Button
       onClick={() => {

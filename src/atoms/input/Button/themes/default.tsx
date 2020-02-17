@@ -7,6 +7,7 @@ export const base = `
     border-right: solid 2px black;
     border-radius: 10px;
     cursor: pointer;
+    font-family: monospace;
 
     :hover {
         transition: all 0.5s;

@@ -24,6 +24,10 @@ const StyledImg = styled.div`
   background: url(${Route.ROOT}/bestest.jpg);
   border-top-left-radius: 150px;
   border-bottom-left-radius: 150px;
+
+  @media only screen and (max-width: 625px) {
+    height: unset;
+  }
 `;
 
 const Body = styled.div`
