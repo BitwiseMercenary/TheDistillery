@@ -17,7 +17,7 @@ const Button = (props: React.HTMLAttributes<HTMLButtonElement>) => {
 };
 
 const NavContainer = styled.div`
-  width: calc(100% - 20px);
+  width: 150px; //calc(100% - 20px);
   height: 50px;
   background-color: transparent;
   margin-top: 20px;
@@ -25,12 +25,6 @@ const NavContainer = styled.div`
   border-radius: 10px;
   display: inline-flex;
   box-shadow: 0px 15px 15px 0px #cfcfcf;
-}
-
-
-
-
-
 `;
 
 const ButtonListContainer = styled.div`

@@ -58,7 +58,7 @@ export const Home = () => {
               fontWeight: 100
             }}
           >
-            Software Engineer | Cook | Sexy Man
+            Software Engineer | Cook | Bourbon Drinker | Sexy Man
           </span>
           <span style={{ marginTop: "50px" }}>I'm working on it...</span>
         </div>
