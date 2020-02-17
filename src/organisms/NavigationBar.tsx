@@ -13,11 +13,11 @@ const StyledButton = styled.button`
   cursor: pointer;
 `;
 const Button = (props: React.HTMLAttributes<HTMLButtonElement>) => {
-  return <StyledButton>{props.children}</StyledButton>;
+  return <StyledButton {...props}>{props.children}</StyledButton>;
 };
 
 const NavContainer = styled.div`
-  width: 150px; //calc(100% - 20px);
+  width: 250px; //calc(100% - 20px);
   height: 50px;
   background-color: transparent;
   margin-top: 20px;
@@ -30,13 +30,23 @@ const NavContainer = styled.div`
 const ButtonListContainer = styled.div`
   width: 100%;
   display: inline-flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 `;
 
 export const NavigationBar = () => {
   // TO DO: Abstract as molecule
-  const buttonList = [<Button>Home</Button>];
+  const buttonList = [
+    <Button>Home</Button>,
+    <Button
+      onClick={() => {
+        window.location.href =
+          "https://www.linkedin.com/in/robert-mercado-30801990/";
+      }}
+    >
+      Linked In
+    </Button>
+  ];
 
   return (
     <NavContainer>
