@@ -24,6 +24,7 @@ const StyledImg = styled.div`
   background: url(${Route.ROOT}/bestest.jpg);
   border-top-left-radius: 150px;
   border-bottom-left-radius: 150px;
+  transition: all 0.75s;
 
   @media only screen and (max-width: 625px) {
     height: unset;
@@ -62,9 +63,11 @@ export const Home = () => {
               fontWeight: 100
             }}
           >
-            Software Engineer | Cook | Bourbon Drinker | Sexy Man
+            Software Engineer | Home Cook | Bourbon Drinker | Sexy Man
           </span>
-          <span style={{ marginTop: "50px" }}>I'm working on it...</span>
+          <span style={{ marginTop: "50px", fontFamily: "monospace" }}>
+            I'm working on it...
+          </span>
         </div>
         <StyledImg />
       </Body>
