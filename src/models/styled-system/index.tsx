@@ -1,5 +1,6 @@
-import styled from "styled-components";
 import StyledSystem, {
+  ColorProps,
+  TypographyProps as StyledSystemTypographyProps,
   space,
   backgroundImage,
   background,
@@ -25,11 +26,10 @@ import StyledSystem, {
   lineHeight,
   letterSpacing
 } from "styled-system";
-import { TypographyProps } from "../../types/styled-system";
-//import { flexShrink, FlexShrink } from 'Theme';
 
-// abstract this so Flex and Box use it seper
-export type BoxProps = TypographyProps &
+export type TypographyProps = ColorProps & StyledSystemTypographyProps;
+
+export type DivProps = TypographyProps &
   StyledSystem.SpaceProps &
   StyledSystem.BackgroundImageProps &
   StyledSystem.BackgroundProps &
@@ -49,15 +49,11 @@ export type BoxProps = TypographyProps &
   StyledSystem.TextAlignProps &
   StyledSystem.ZIndexProps &
   StyledSystem.BordersProps &
-  StyledSystem.OverflowProps;
+  StyledSystem.OverflowProps &
+  React.HTMLAttributes<HTMLDivElement> &
+  JSX.IntrinsicElements["div"];
 
-export const Box: React.FunctionComponent<BoxProps & {
-  children?: React.ReactNode;
-} & JSX.IntrinsicElements["div"]> = styled.div(
-  {
-    boxSizing: "border-box",
-    minWidth: 0
-  },
+export const divProps = [
   space,
   background,
   backgroundImage,
@@ -76,13 +72,10 @@ export const Box: React.FunctionComponent<BoxProps & {
   position,
   textAlign,
   overflow,
-  alignSelf,
   fontFamily,
   fontWeight,
-  textAlign,
   lineHeight,
   letterSpacing,
   zIndex,
   borders
-  //flexShrink
-);
+];

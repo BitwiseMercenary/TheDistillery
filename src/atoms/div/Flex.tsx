@@ -5,18 +5,17 @@ import StyledSystem, {
   alignItems,
   justifyContent
 } from "styled-system";
-import { Box, BoxProps } from "./Box";
+import { Div } from "./Div";
+import { DivProps } from "../../models/styled-system";
 
 export type FlexOnlyProps = StyledSystem.AlignItemsProps &
   StyledSystem.FlexWrapProps &
   StyledSystem.FlexDirectionProps &
   StyledSystem.JustifyContentProps;
 
-export type FlexBoxProps = FlexOnlyProps & BoxProps;
+export type FlexProps = FlexOnlyProps & DivProps;
 
-export const Flex: React.FunctionComponent<FlexBoxProps & {
-  children?: React.ReactNode;
-}> = styled(Box)(
+export const Flex: React.FunctionComponent<FlexProps> = styled(Div)(
   {
     display: "flex"
   },
