@@ -29,6 +29,7 @@ import StyledSystem, {
 
 export type TypographyProps = ColorProps & StyledSystemTypographyProps;
 
+// TODO: abstract this into chunks so that its usable for multplie atoms and html elements
 export type DivProps = TypographyProps &
   StyledSystem.SpaceProps &
   StyledSystem.BackgroundImageProps &

@@ -24,8 +24,9 @@ const ButtonListContainer = styled.div`
 export const NavigationBar = () => {
   // TO DO: Abstract as molecule
   const buttonList = [
-    <Button>Home</Button>,
+    <Button id="NavBar-Home-Button">Home</Button>,
     <Button
+      id="NavBar-LinkedIn-Button"
       onClick={() => {
         window.location.href =
           "https://www.linkedin.com/in/robert-mercado-30801990/";
@@ -34,6 +35,7 @@ export const NavigationBar = () => {
       LinkedIn
     </Button>,
     <Button
+      id="NavBar-Github-Button"
       onClick={() => {
         window.location.href = "https://github.com/DarkseidOmega/";
       }}
@@ -43,8 +45,10 @@ export const NavigationBar = () => {
   ];
 
   return (
-    <NavContainer>
-      <ButtonListContainer>{buttonList}</ButtonListContainer>
+    <NavContainer className="NavContainer">
+      <ButtonListContainer className="ButtonListContainer">
+        {buttonList}
+      </ButtonListContainer>
     </NavContainer>
   );
 };
