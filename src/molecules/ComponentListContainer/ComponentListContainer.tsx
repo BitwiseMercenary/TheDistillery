@@ -1,12 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import { DivProps } from "../../models/styled-system";
+import { Div } from "../../atoms";
 
-type ComponentListContainer = DivProps & {
-  theme: any;
-};
-
-const StyledComponentListContainer = styled.div`
+const StyledComponentListContainer: React.FunctionComponent<DivProps> = styled(
+  Div
+)`
   width: 100%;
   display: inline-flex;
   justify-content: space-evenly;
@@ -20,7 +19,7 @@ export const ComponentListContainer = (props: DivProps) => {
      */
 
   return (
-    <StyledComponentListContainer>
+    <StyledComponentListContainer {...props}>
       {props.children}
     </StyledComponentListContainer>
   );

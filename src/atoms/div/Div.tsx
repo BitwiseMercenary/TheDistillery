@@ -8,3 +8,5 @@ export const Div: React.FunctionComponent<DivProps> = styled.div(
   },
   ...baseProps
 );
+
+//export const Div = (props: any) => styled(BaseDiv)``;
