@@ -58,7 +58,7 @@ export const NavigationBar = () => {
     </A>
   ];
   return (
-    <Flex>
+    <Flex flexDirection="column" alignItems="center">
       <NavContainer className="NavContainer">
         <ComponentListContainer className="ButtonListContainer">
           {buttonList}
