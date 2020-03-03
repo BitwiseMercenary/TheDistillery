@@ -9,8 +9,9 @@ export const iconlink = `
             fill: ${colors.gold};
         }
     }
-g
+
     :focus {
+        outline: none;
         transform: scale(1.3);
         > svg {
             fill: ${colors.gold};
