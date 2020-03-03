@@ -9,7 +9,7 @@ export const iconlink = `
             fill: ${colors.gold};
         }
     }
-
+g
     :focus {
         transform: scale(1.3);
         > svg {
