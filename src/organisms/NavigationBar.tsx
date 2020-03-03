@@ -20,11 +20,28 @@ const NavContainer = styled.div`
 export const NavigationBar = () => {
   // TO DO: Abstract as molecule
   const buttonList = [
-    <Button id="NavBar-Home-Button">Home</Button>,
-    <Button id="NavBar-Resume-Button" onClick={() => {}}>
+    <Button
+      id="NavBar-Home-Button"
+      onClick={() => {
+        window.alert("you're already here");
+      }}
+    >
+      Home
+    </Button>,
+    <Button
+      id="NavBar-Resume-Button"
+      onClick={() => {
+        window.alert("working on it...");
+      }}
+    >
       Resume
     </Button>,
-    <Button id="NavBar-OtherStuff-Button" onClick={() => {}}>
+    <Button
+      id="NavBar-OtherStuff-Button"
+      onClick={() => {
+        window.alert("working on it...");
+      }}
+    >
       Other Stuff
     </Button>
   ];
