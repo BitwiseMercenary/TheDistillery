@@ -17,6 +17,13 @@ const NavContainer = styled.div`
   box-shadow: 0px 15px 15px 0px #cfcfcf;
 `;
 
+const TopStuff = styled(Flex)`
+  @media only screen and (max-width: 605px) {
+    flex-direction: column;
+    align-items: center;
+  }
+`;
+
 export const NavigationBar = () => {
   // TO DO: Abstract as molecule
   const buttonList = [
@@ -58,7 +65,7 @@ export const NavigationBar = () => {
     </A>
   ];
   return (
-    <Flex flexDirection="column" alignItems="center">
+    <TopStuff>
       <NavContainer className="NavContainer">
         <ComponentListContainer className="ButtonListContainer">
           {buttonList}
@@ -70,6 +77,6 @@ export const NavigationBar = () => {
           {iconList}
         </ComponentListContainer>
       </Flex>
-    </Flex>
+    </TopStuff>
   );
 };
