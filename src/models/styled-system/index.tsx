@@ -29,8 +29,7 @@ import StyledSystem, {
 
 export type TypographyProps = ColorProps & StyledSystemTypographyProps;
 
-// TODO: abstract this into chunks so that its usable for multplie atoms and html elements
-export type DivProps = TypographyProps &
+export type BaseProps = TypographyProps &
   StyledSystem.SpaceProps &
   StyledSystem.BackgroundImageProps &
   StyledSystem.BackgroundProps &
@@ -50,11 +49,14 @@ export type DivProps = TypographyProps &
   StyledSystem.TextAlignProps &
   StyledSystem.ZIndexProps &
   StyledSystem.BordersProps &
-  StyledSystem.OverflowProps &
+  StyledSystem.OverflowProps;
+
+// TODO: abstract this into chunks so that its usable for multplie atoms and html elements
+export type DivProps = BaseProps &
   React.HTMLAttributes<HTMLDivElement> &
   JSX.IntrinsicElements["div"];
 
-export const divProps = [
+export const baseProps = [
   space,
   background,
   backgroundImage,

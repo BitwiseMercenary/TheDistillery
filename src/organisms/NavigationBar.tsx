@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { Button } from "../atoms";
+import { Button, A, Flex } from "../atoms";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { ATheme } from "../atoms/links/A/types";
+import { ComponentListContainer } from "../molecules/ComponentListContainer/ComponentListContainer";
 
 // TODO: abstract as atom
 const NavContainer = styled.div`
@@ -14,41 +17,42 @@ const NavContainer = styled.div`
   box-shadow: 0px 15px 15px 0px #cfcfcf;
 `;
 
-const ButtonListContainer = styled.div`
-  width: 100%;
-  display: inline-flex;
-  justify-content: space-evenly;
-  align-items: center;
-`;
-
 export const NavigationBar = () => {
   // TO DO: Abstract as molecule
   const buttonList = [
     <Button id="NavBar-Home-Button">Home</Button>,
-    <Button
-      id="NavBar-LinkedIn-Button"
-      onClick={() => {
-        window.location.href =
-          "https://www.linkedin.com/in/robert-mercado-30801990/";
-      }}
-    >
-      LinkedIn
+    <Button id="NavBar-Resume-Button" onClick={() => {}}>
+      Resume
     </Button>,
-    <Button
-      id="NavBar-Github-Button"
-      onClick={() => {
-        window.location.href = "https://github.com/DarkseidOmega/";
-      }}
-    >
-      Github
+    <Button id="NavBar-OtherStuff-Button" onClick={() => {}}>
+      Other Stuff
     </Button>
   ];
 
+  const iconList = [
+    <A
+      theme={ATheme.ICONLINK}
+      href="https://www.linkedin.com/in/robert-mercado-30801990/"
+    >
+      <FaLinkedin />
+    </A>,
+    <A theme={ATheme.ICONLINK} href="https://github.com/DarkseidOmega/">
+      <FaGithub />
+    </A>
+  ];
   return (
-    <NavContainer className="NavContainer">
-      <ButtonListContainer className="ButtonListContainer">
-        {buttonList}
-      </ButtonListContainer>
-    </NavContainer>
+    <Flex>
+      <NavContainer className="NavContainer">
+        <ComponentListContainer className="ButtonListContainer">
+          {buttonList}
+        </ComponentListContainer>
+      </NavContainer>
+
+      <Flex margin="25px 0 0 15px" width="85px">
+        <ComponentListContainer className="IconListContainer">
+          {iconList}
+        </ComponentListContainer>
+      </Flex>
+    </Flex>
   );
 };
