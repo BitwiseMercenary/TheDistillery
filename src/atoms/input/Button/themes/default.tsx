@@ -1,3 +1,5 @@
+import { colors } from "../../../../theme";
+
 export const base = `
     height: 40px;
     background: transparent;
@@ -11,8 +13,16 @@ export const base = `
 
     :hover {
         transition: all 0.5s;
-        border-left: solid 2px #e0bb00;
-        border-right: solid 2px #e0bb00;
-        color: #878787;
+        border-left: solid 2px ${colors.gold};
+        border-right: solid 2px ${colors.gold};
+        color: ${colors.grey};
+    }
+
+    :focus {
+        outline: none;
+        transition: all 0.5s;
+        border-left: solid 2px ${colors.gold};
+        border-right: solid 2px ${colors.gold};
+        color: ${colors.grey};
     }
 `;

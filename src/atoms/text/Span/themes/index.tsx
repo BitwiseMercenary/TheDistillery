@@ -1,2 +1,3 @@
 export { base } from "./default";
-export { tba } from "./tba";
+export { title } from "./title";
+export { subheader } from "./subheader";

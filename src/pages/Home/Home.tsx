@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import { Span } from "../../atoms";
+import { Flex, Span } from "../../atoms";
 import { SpanTheme } from "../../atoms/text/Span/types";
 import { NavigationBar } from "../../organisms";
 import { Route } from "../../constants";
+import P from "../../atoms/text/P/P";
 
 // TO DO: Abstract this
 const HomeBase = styled.div`
@@ -44,31 +45,20 @@ export const Home = () => {
     <HomeBase>
       <NavigationBar />
       <Body>
-        <div
-          style={{
-            width: "50vw",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            paddingTop: "50px"
-          }}
+        <Flex
+          width="50vw"
+          flexDirection="column"
+          alignItems="center"
+          paddingTop="50px"
         >
-          <Span theme={SpanTheme.TBA}>Robert Mercado </Span>
-          <span
-            style={{
-              fontSize: "20px",
-              color: "#878787",
-              fontFamily: "Copperplate",
-              marginTop: "5px",
-              fontWeight: 100
-            }}
-          >
-            Software Engineer | Home Cook | Bourbon Drinker | Sexy Man
-          </span>
-          <span style={{ marginTop: "50px", fontFamily: "monospace" }}>
+          <Span theme={SpanTheme.TITLE}>Robert Mercado </Span>
+          <Span theme={SpanTheme.SUBHEADER}>
+            Software Engineer | Home Cook | Bourbon Drinker
+          </Span>
+          <P marginTop="50px" fontFamily="monospace">
             I'm working on it...
-          </span>
-        </div>
+          </P>
+        </Flex>
         <StyledImg />
       </Body>
     </HomeBase>

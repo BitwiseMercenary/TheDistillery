@@ -1,14 +1,16 @@
 import React from "react";
-import { base, tba } from "../themes";
+import { base, title, subheader } from "../themes";
 
 export enum SpanTheme {
-  DEFAULT = "DEFAULT",
-  TBA = "TBA"
+  DEFAULT,
+  TITLE,
+  SUBHEADER
 }
 
 export const ThemeSelector = {
   [SpanTheme.DEFAULT]: base,
-  [SpanTheme.TBA]: tba
+  [SpanTheme.TITLE]: title,
+  [SpanTheme.SUBHEADER]: subheader
 } as const;
 
 export interface SpanProps extends React.HTMLAttributes<HTMLSpanElement> {

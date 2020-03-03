@@ -1,4 +1,6 @@
-export const tba = `
+import { colors } from "../../../../theme";
+
+export const title = `
     font-family: Copperplate;
     font-size: 60px;
     color: black;
@@ -6,7 +8,7 @@ export const tba = `
     width: fit-content;
     display: inline-table;
     width: 40vw;
-    border-bottom: solid 2px #e0bb00;
+    border-bottom: solid 2px ${colors.gold};
 
     @media only screen and (max-width: 605px) {
         font-size: 40px;
