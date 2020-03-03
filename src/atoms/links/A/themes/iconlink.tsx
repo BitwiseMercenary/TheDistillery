@@ -10,6 +10,13 @@ export const iconlink = `
         }
     }
 
+    :focus {
+        transform: scale(1.3);
+        > svg {
+            fill: ${colors.gold};
+        }
+    }
+
     > svg {
         fill: ${colors.black};
         height: 30px;
