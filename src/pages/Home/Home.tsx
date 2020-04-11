@@ -40,8 +40,8 @@ export const Home = () => {
           </P>
           <P fontFamily="monospace">
             I thought it'd be fun to create a component library just to build
-            this personal website -- never take the path of least resistance,
-            amirite? It's still a work in progress.
+            this personal website ¯\_(ツ)_/¯ -- never take the path of least
+            resistance, amirite? It's still a work in progress.
           </P>
           <P fontFamily="monospace">
             If you wish contact me about work stuffs, the best way is via
