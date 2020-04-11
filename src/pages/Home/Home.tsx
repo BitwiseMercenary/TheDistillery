@@ -30,7 +30,9 @@ export const Home = () => {
         alignItems="center"
         paddingTop="50px"
       >
-        <Span theme={SpanTheme.TITLE}>Robert Mercado </Span>
+        <Span theme={SpanTheme.TITLE} aria-label="header">
+          Robert Mercado{" "}
+        </Span>
         <Span theme={SpanTheme.SUBHEADER}>
           Software Engineer | Home Cook | Bourbon Drinker
         </Span>
@@ -44,7 +46,7 @@ export const Home = () => {
             resistance, amirite? It's still a work in progress.
           </P>
           <P fontFamily="monospace">
-            If you wish contact me about work stuffs, the best way is via
+            If you wish to contact me about work stuffs, the best way is via
             LinkedIn (see button by the nav bar).
           </P>
         </Flex>
