@@ -34,9 +34,20 @@ export const Home = () => {
         <Span theme={SpanTheme.SUBHEADER}>
           Software Engineer | Home Cook | Bourbon Drinker
         </Span>
-        <P marginTop="50px" fontFamily="monospace">
-          I'm working on it...
-        </P>
+        <Flex width="70%" flexDirection="column">
+          <P marginTop="50px" fontFamily="monospace">
+            I'm a software engineer based out of Arlington, VA.
+          </P>
+          <P fontFamily="monospace">
+            I thought it'd be fun to create a component library just to build
+            this personal website -- never take the path of least resistance,
+            amirite? It's still a work in progress.
+          </P>
+          <P fontFamily="monospace">
+            If you wish contact me about work stuffs, the best way is via
+            LinkedIn (see button by the nav bar).
+          </P>
+        </Flex>
       </Flex>
       <StyledImg />
     </BasePage>
