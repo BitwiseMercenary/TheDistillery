@@ -22,7 +22,7 @@ import {
   textAlign,
   TypographyProps as StyledSystemTypographyProps,
   width,
-  WidthProps
+  WidthProps,
 } from "styled-system";
 import { colors } from "../../../theme";
 //import { themed } from 'Utils/theme.helpers';
@@ -58,7 +58,7 @@ const P = styled.p<TextProps>(
 
 P.defaultProps = {
   fontSize: "15px",
-  color: colors.black
+  color: colors.black,
 };
 
 export default P;

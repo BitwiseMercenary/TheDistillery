@@ -4,6 +4,8 @@ import { Button, A, Flex } from "../atoms";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { ATheme } from "../atoms/links/A/types";
 import { ComponentListContainer } from "../molecules/ComponentListContainer/ComponentListContainer";
+import { Route } from "../constants";
+import { useHistory } from "react-router-dom";
 
 // TODO: abstract as atom
 const NavContainer = styled.div`
@@ -25,44 +27,53 @@ const TopStuff = styled(Flex)`
 `;
 
 export const NavigationBar = () => {
+  const history = useHistory();
   // TO DO: Abstract as molecule
   const buttonList = [
     <Button
       id="NavBar-Home-Button"
+      key="NavBar-Home-Button"
       onClick={() => {
-        window.alert("you're already here");
+        history.push(Route.HOME);
       }}
     >
       Home
     </Button>,
     <Button
       id="NavBar-Resume-Button"
+      key="NavBar-Resume-Button"
       onClick={() => {
-        window.alert("working on it...");
+        history.push(Route.RESUME);
       }}
     >
       Resume
     </Button>,
     <Button
       id="NavBar-OtherStuff-Button"
+      key="NavBar-OtherStuff-Button"
       onClick={() => {
         window.alert("working on it...");
       }}
     >
       Other Stuff
-    </Button>
+    </Button>,
   ];
 
   const iconList = [
     <A
+      key="LinkedIn-ButtonIcon"
       theme={ATheme.ICONLINK}
       href="https://www.linkedin.com/in/robert-mercado-30801990/"
     >
       <FaLinkedin />
     </A>,
-    <A theme={ATheme.ICONLINK} href="https://github.com/DarkseidOmega/">
+    <A
+      key="Github-ButtonIcon"
+      theme={ATheme.ICONLINK}
+      href="https://github.com/DarkseidOmega/"
+    >
       <FaGithub />
-    </A>
+    </A>,
   ];
   return (
     <TopStuff>
