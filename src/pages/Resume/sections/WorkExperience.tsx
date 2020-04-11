@@ -31,9 +31,9 @@ export const WorkExperience = () => {
               <li>Contributed to company hiring decisions.</li>
               <li>Coached and Mentored junior engineers. </li>
               <li>
-                Led the development effort on architecting, planning, and
-                executing on a major high visibility integration feature with a
-                major consumer credit reporting agency from end to end.{" "}
+                Led the end to end development effort on architecting, planning,
+                and executing on a major high visibility integration feature
+                with a major consumer credit reporting agency.
               </li>
               <li>
                 Built a robust fault-tolerant system that is responsible for
