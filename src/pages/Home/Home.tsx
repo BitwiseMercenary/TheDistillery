@@ -4,6 +4,7 @@ import { Flex, Span } from "../../atoms";
 import { SpanTheme } from "../../atoms/text/Span/types";
 import { BasePage } from "../../organisms";
 import { Route } from "../../constants";
+import { DesktopWindow } from "../../molecules/DesktopWindow/DesktopWindow";
 import P from "../../atoms/text/P/P";
 
 const StyledImg = styled.div`
@@ -30,26 +31,30 @@ export const Home = () => {
         alignItems="center"
         paddingTop="50px"
       >
-        <Span theme={SpanTheme.TITLE} aria-label="header">
-          Robert Mercado{" "}
-        </Span>
-        <Span theme={SpanTheme.SUBHEADER}>
-          Software Engineer | Home Cook | Bourbon Drinker
-        </Span>
-        <Flex width="70%" flexDirection="column">
-          <P marginTop="50px" fontFamily="monospace">
-            I'm a software engineer based out of Arlington, VA.
-          </P>
-          <P fontFamily="monospace">
-            I thought it'd be fun to create a component library just to build
-            this personal website ¯\_(ツ)_/¯ -- never take the path of least
-            resistance, amirite? It's still a work in progress.
-          </P>
-          <P fontFamily="monospace">
-            If you wish to contact me about work stuffs, the best way is via
-            LinkedIn (see button by the nav bar).
-          </P>
-        </Flex>
+        <DesktopWindow width={"100%"} height={"auto"}>
+          <Flex flexDirection="column" alignItems="center">
+            <Span theme={SpanTheme.TITLE} aria-label="header">
+              Robert Mercado
+            </Span>
+            <Span theme={SpanTheme.SUBHEADER}>
+              Software Engineer | Home Cook | Bourbon Drinker
+            </Span>
+            <Flex width="70%" flexDirection="column">
+              <P marginTop="50px" fontFamily="monospace">
+                I'm a software engineer based out of Arlington, VA.
+              </P>
+              <P fontFamily="monospace">
+                I thought it'd be fun to create a component library just to
+                build this personal website ¯\_(ツ)_/¯ -- never take the path of
+                least resistance, amirite? It's still a work in progress.
+              </P>
+              <P fontFamily="monospace">
+                If you wish to contact me about work stuffs, the best way is via
+                LinkedIn (see button by the nav bar).
+              </P>
+            </Flex>
+          </Flex>
+        </DesktopWindow>
       </Flex>
       <StyledImg />
     </BasePage>
