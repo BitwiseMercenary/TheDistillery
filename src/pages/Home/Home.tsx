@@ -32,7 +32,7 @@ export const Home = () => {
         paddingTop="50px"
       >
         <DesktopWindow width={"100%"} height={"auto"}>
-          <Flex flexDirection="column" alignItems="center">
+          <Flex flexDirection="column" justifyContent="center">
             <Span theme={SpanTheme.TITLE} aria-label="header">
               Robert Mercado
             </Span>
