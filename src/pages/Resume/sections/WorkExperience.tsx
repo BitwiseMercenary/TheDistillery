@@ -1,5 +1,23 @@
 import React from "react";
+import styled from "styled-components";
 import { Flex, Span } from "../../../atoms";
+
+const JobSectionTitle = styled(Flex)`
+  justify-content: space-between;
+
+  @media only screen and (max-width: 370px) {
+    flex-direction: column;
+  }
+`;
+
+const ListContainer = styled(Flex)`
+  flex-direction: column;
+  width: 600px;
+
+  @media only screen and (max-width: 625px) {
+    width: 90vw;
+  }
+`;
 
 export const WorkExperience = () => {
   return (
@@ -10,11 +28,11 @@ export const WorkExperience = () => {
         <h3>Remine</h3>
         {/* Remine section Body*/}
         <Flex flexDirection="column">
-          <Flex justifyContent="space-between">
+          <JobSectionTitle>
             <Span>Full Stack Software Engineer</Span>
             <Span>2018 - Present</Span>
-          </Flex>
-          <Flex flexDirection="column" width="600px">
+          </JobSectionTitle>
+          <ListContainer>
             <ul style={{ textAlign: "left" }}>
               <li>
                 Transitioned into a full stack engineer, executing on high level
@@ -46,18 +64,18 @@ export const WorkExperience = () => {
                 contractual obligations on an extremely aggressive timeline.
               </li>
             </ul>
-          </Flex>
+          </ListContainer>
         </Flex>
       </Flex>
       {/* Accenture Section */}
       <Flex flexDirection="column" textAlign="left">
         <h3>Accenture</h3>
         <Flex flexDirection="column">
-          <Flex justifyContent="space-between">
+          <JobSectionTitle>
             <Span>Software Developer Analyst</Span>
             <Span>2015 - 2018</Span>
-          </Flex>
-          <Flex flexDirection="column" width="600px">
+          </JobSectionTitle>
+          <ListContainer>
             <ul style={{ textAlign: "left" }}>
               <li>
                 Primary responsibilities include research, design, and
@@ -82,7 +100,7 @@ export const WorkExperience = () => {
                 identify edge case issues.
               </li>
             </ul>
-          </Flex>
+          </ListContainer>
         </Flex>
       </Flex>
       <h3>Northrop Grumman</h3>

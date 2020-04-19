@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { Switch, Route, HashRouter } from "react-router-dom";
 
 import "./App.css";
 import { Home } from "./pages";
@@ -8,7 +8,8 @@ import { Resume } from "./pages/Resume/Resume";
 
 function App() {
   return (
-    <BrowserRouter>
+    /* GitHub Pages doesn’t support routers that use the HTML5 pushState history API under the hood */
+    <HashRouter>
       <div className="App">
         <Switch>
           <Route exact path={RoutePath.HOME}>
@@ -19,7 +20,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

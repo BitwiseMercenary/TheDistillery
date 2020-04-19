@@ -17,13 +17,20 @@ const Body = styled(Flex)`
   padding-top: 30px;
   justify-content: space-between;
   width: 100%;
+
+  @media only screen and (max-width: 625px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const BasePage = ({ children, bodyStyles = {} }) => {
   return (
     <HomeBase>
       <NavigationBar />
-      <Body {...bodyStyles}>{children}</Body>
+      <Body {...bodyStyles} id={"BasePage"}>
+        {children}
+      </Body>
     </HomeBase>
   );
 };

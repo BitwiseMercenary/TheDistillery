@@ -12,5 +12,6 @@ export const title = `
 
     @media only screen and (max-width: 605px) {
         font-size: 40px;
+        width: min-content;
       }
 `;
