@@ -2,65 +2,73 @@ import React from "react";
 import styled from "styled-components";
 import { Flex, Span } from "../../atoms";
 import { SpanTheme } from "../../atoms/text/Span/types";
-import { NavigationBar } from "../../organisms";
+import { BasePage } from "../../organisms";
 import { Route } from "../../constants";
+import { DesktopWindow } from "../../molecules/DesktopWindow/DesktopWindow";
 import P from "../../atoms/text/P/P";
-
-// TO DO: Abstract this
-const HomeBase = styled.div`
-  height: 100%;
-  width: 100%;
-  background-color: white;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
 
 const StyledImg = styled.div`
   height: calc(100vh - 120px);
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  width: 50vw;
+  width: 100%;
   background: url(${Route.ROOT}/bestest.jpg);
-  border-top-left-radius: 150px;
-  border-bottom-left-radius: 150px;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
   transition: all 0.75s;
 
   @media only screen and (max-width: 625px) {
-    height: unset;
+    background-size: cover !important;
+    height: calc(300px);
+    border-radius: 150px;
   }
 `;
 
-const Body = styled.div`
-  padding-top: 30px;
-  display: flex;
-  flex-driection: row;
-  justify-content: space-between;
-  width: 100%;
+const Responsive = styled(Flex)`
+  width: 50vw;
+  flex-direction: column;
+  align-items: center;
+
+  @media only screen and (max-width: 625px) {
+    width: 90vw;
+  }
 `;
 
 export const Home = () => {
   return (
-    <HomeBase>
-      <NavigationBar />
-      <Body>
+    <BasePage>
+      <Responsive>
+        <StyledImg />
+      </Responsive>
+      <Responsive paddingTop="50px">
         <Flex
-          width="50vw"
           flexDirection="column"
+          justifyContent="center"
           alignItems="center"
-          paddingTop="50px"
+          // this is turning into centering box hell -- fix it...
         >
-          <Span theme={SpanTheme.TITLE}>Robert Mercado </Span>
+          <Span theme={SpanTheme.TITLE} aria-label="header">
+            Robert Mercado
+          </Span>
           <Span theme={SpanTheme.SUBHEADER}>
             Software Engineer | Home Cook | Bourbon Drinker
           </Span>
-          <P marginTop="50px" fontFamily="monospace">
-            I'm working on it...
-          </P>
+          <Flex width="70%" flexDirection="column">
+            <P marginTop="50px" fontFamily="monospace">
+              I'm a software engineer based out of Arlington, VA.
+            </P>
+            <P fontFamily="monospace">
+              I thought it'd be fun to create a component library just to build
+              this personal website ¯\_(ツ)_/¯ -- never take the path of least
+              resistance, amirite? It's still a work in progress.
+            </P>
+            <P fontFamily="monospace">
+              If you wish to contact me about work stuffs, the best way is via
+              LinkedIn (see button by the nav bar).
+            </P>
+          </Flex>
         </Flex>
-        <StyledImg />
-      </Body>
-    </HomeBase>
+      </Responsive>
+    </BasePage>
   );
 };
