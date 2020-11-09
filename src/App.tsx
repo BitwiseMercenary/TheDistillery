@@ -7,21 +7,21 @@ import { Route as RoutePath } from "./constants";
 import { Resume } from "./pages/Resume/Resume";
 
 function App() {
-  return (
-    /* GitHub Pages doesn’t support routers that use the HTML5 pushState history API under the hood */
-    <HashRouter>
-      <div className="App">
-        <Switch>
-          <Route exact path={RoutePath.HOME}>
-            <Home />
-          </Route>
-          <Route exact path={RoutePath.RESUME}>
-            <Resume />
-          </Route>
-        </Switch>
-      </div>
-    </HashRouter>
-  );
+    return (
+        /* GitHub Pages doesn’t support routers that use the HTML5 pushState history API under the hood */
+        <HashRouter>
+            <div className="App">
+                <Switch>
+                    <Route exact path={RoutePath.HOME}>
+                        <Home />
+                    </Route>
+                    <Route exact path={RoutePath.RESUME}>
+                        <Resume />
+                    </Route>
+                </Switch>
+            </div>
+        </HashRouter>
+    );
 }
 
 export default App;
