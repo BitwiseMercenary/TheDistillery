@@ -6,6 +6,7 @@ import { ATheme } from "../atoms/links/A/types";
 import { ComponentListContainer } from "../molecules/ComponentListContainer/ComponentListContainer";
 import { Route } from "../constants";
 import { useHistory } from "react-router-dom";
+import {FlexProps} from "../atoms/layout/Flex";
 
 // TODO: abstract as atom
 const NavContainer = styled.div`
@@ -73,12 +74,12 @@ export const NavigationBar = () => {
     ];
     return (
         <TopStuff>
-            <NavContainer className="NavContainer">
-                <ComponentListContainer className="ButtonListContainer">{buttonList}</ComponentListContainer>
+            <NavContainer data-id="NavContainer">
+                <ComponentListContainer data-id="ButtonListContainer">{buttonList}</ComponentListContainer>
             </NavContainer>
 
             <Flex margin="25px 0 0 15px" width="85px">
-                <ComponentListContainer className="IconListContainer">{iconList}</ComponentListContainer>
+                <ComponentListContainer data-id="IconListContainer">{iconList}</ComponentListContainer>
             </Flex>
         </TopStuff>
     );
