@@ -27,7 +27,7 @@ const Body = styled(Flex)`
 export const BasePage = ({ children, bodyStyles = {} }) => {
     return (
         <HomeBase>
-            <NavigationBar />
+            <NavigationBar/>
             <Body {...bodyStyles} id={"BasePage"}>
                 {children}
             </Body>

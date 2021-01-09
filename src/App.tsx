@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route, HashRouter } from "react-router-dom";
 
 import "./App.css";
-import { Home } from "./pages";
+import { Home, HomeV2 } from "./pages";
 import { Route as RoutePath } from "./constants";
 import { Resume } from "./pages/Resume/Resume";
 
@@ -14,6 +14,9 @@ function App() {
                 <Switch>
                     <Route exact path={RoutePath.HOME}>
                         <Home />
+                    </Route>
+                    <Route exact path={RoutePath.HOMEV2}>
+                        <HomeV2 />
                     </Route>
                     <Route exact path={RoutePath.RESUME}>
                         <Resume />
