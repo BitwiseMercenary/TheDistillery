@@ -6,7 +6,7 @@ import { ATheme } from "../atoms/links/A/types";
 import { ComponentListContainer } from "../molecules/ComponentListContainer/ComponentListContainer";
 import { Route } from "../constants";
 import { useHistory } from "react-router-dom";
-import {FlexProps} from "../atoms/layout/Flex";
+import { FlexProps } from "../atoms/layout/Flex";
 
 // TODO: abstract as atom
 const NavContainer = styled.div`

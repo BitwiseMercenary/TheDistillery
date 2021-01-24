@@ -1,9 +1,9 @@
-import {base, vertical} from "../themes"
-import {DivProps} from "../../../models/styled-system";
+import { base, vertical } from "../themes";
+import { DivProps } from "../../../models/styled-system";
 
 export enum ComponentListContainerTheme {
     DEFAULT = "DEFAULT",
-    VERTICAL = "VERTICAL"
+    VERTICAL = "VERTICAL",
 }
 
 export const ThemeSelector = {
@@ -12,5 +12,5 @@ export const ThemeSelector = {
 } as const;
 
 export type ComponentListContainerProps = DivProps & {
-    theme?: ComponentListContainerTheme | undefined
-}
+    theme?: ComponentListContainerTheme | undefined;
+};
