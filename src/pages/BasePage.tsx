@@ -1,13 +1,15 @@
 import React from "react";
 import styled from "styled-components";
-import { NavigationBar } from "./NavigationBar";
+import { NavigationBar } from "../organisms/NavigationBar/NavigationBar";
 import { Flex } from "../atoms";
+import { NavigationBarTheme } from "../organisms/NavigationBar/types";
+import { colors } from "../theme";
 
 // TO DO: Abstract this
 const HomeBase = styled(Flex)`
     height: 100%;
     width: 100%;
-    background-color: white;
+    background-color: ${colors.LEET.background};
     background-size: cover;
     flex-direction: column;
     align-items: center;
@@ -24,10 +26,11 @@ const Body = styled(Flex)`
     }
 `;
 
-export const BasePage = ({ children, bodyStyles = {} }) => {
+// I think this file should be moved to `/pages`. I don't think an organism should be able to use another organism.
+export const BasePage = ({ children = null, bodyStyles = {} }) => {
     return (
         <HomeBase>
-            <NavigationBar />
+            <NavigationBar theme={NavigationBarTheme.LEET} />
             <Body {...bodyStyles} id={"BasePage"}>
                 {children}
             </Body>

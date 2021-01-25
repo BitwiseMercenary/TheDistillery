@@ -1,6 +1,6 @@
 import React from "react";
-import { BasePage } from "../../organisms";
 import { Flex } from "../../atoms";
+import { BasePage } from "../";
 import { WorkExperience } from "./sections/WorkExperience";
 
 export const Resume = () => {

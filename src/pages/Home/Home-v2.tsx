@@ -1,5 +1,5 @@
 import React from "react";
-import { BasePage } from "../../organisms";
+import { BasePage } from "../";
 
 export const HomeV2 = () => {
     return <BasePage></BasePage>;

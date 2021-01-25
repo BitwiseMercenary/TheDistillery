@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { Flex, Span } from "../../atoms";
 import { SpanTheme } from "../../atoms/text/Span/types";
-import { BasePage } from "../../organisms";
 import { Route } from "../../constants";
+import { BasePage } from "../";
 import { DesktopWindow } from "../../molecules/DesktopWindow/DesktopWindow";
 import P from "../../atoms/text/P/P";
 

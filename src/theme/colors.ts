@@ -1,3 +1,5 @@
+import { GlobalTheme } from "./GlobalTheme";
+
 export const colors = {
     // shades of white
     white: "#FFFFFF",
@@ -13,4 +15,9 @@ export const colors = {
 
     //shades of red
     red: "#DF0808",
-};
+
+    // Define colors for Leet theme
+    [GlobalTheme.LEET]: {
+        background: "#160038",
+    },
+} as const;

@@ -1,15 +1,15 @@
 import React from "react";
 import styled from "styled-components";
-import { Button, A, Flex } from "../atoms";
+import { Button, A, Flex } from "../../atoms";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { ATheme } from "../atoms/links/A/types";
-import { ComponentListContainer } from "../molecules/ComponentListContainer/ComponentListContainer";
-import { Route } from "../constants";
+import { ATheme } from "../../atoms/links/A/types";
+import { ComponentListContainer } from "../../molecules/ComponentListContainer/ComponentListContainer";
+import { Route } from "../../constants";
 import { useHistory } from "react-router-dom";
-import { FlexProps } from "../atoms/layout/Flex";
+import { NavigationBarTheme, ThemeSelector } from "./types";
 
 // TODO: abstract as atom
-const NavContainer = styled.div`
+/*const NavContainer = styled.div`
     width: 325px; //calc(100% - 20px);
     height: 52px;
     background-color: transparent;
@@ -18,16 +18,23 @@ const NavContainer = styled.div`
     border-radius: 10px;
     display: inline-flex;
     box-shadow: 0px 15px 15px 0px #cfcfcf;
-`;
+`;*/
 
-const TopStuff = styled(Flex)`
+/*const TopStuff = styled(Flex)`
     @media only screen and (max-width: 605px) {
         flex-direction: column;
         align-items: center;
     }
+`;*/
+
+const StyledNavigationBar = styled(Flex)`
+    ${props => {
+        console.log({ theme: props.theme });
+        return ThemeSelector[props.theme];
+    }}
 `;
 
-export const NavigationBar = () => {
+export const NavigationBar = ({ theme = NavigationBarTheme.LEET }) => {
     const history = useHistory();
     // TO DO: Abstract as molecule
     const buttonList = [
@@ -73,14 +80,12 @@ export const NavigationBar = () => {
         </A>,
     ];
     return (
-        <TopStuff>
-            <NavContainer data-id="NavContainer">
-                <ComponentListContainer data-id="ButtonListContainer">{buttonList}</ComponentListContainer>
-            </NavContainer>
-
-            <Flex margin="25px 0 0 15px" width="85px">
-                <ComponentListContainer data-id="IconListContainer">{iconList}</ComponentListContainer>
-            </Flex>
-        </TopStuff>
+        // TODO: is there a better way of propogating theese themes to everone?
+        <StyledNavigationBar id={"NavigationBar"} theme={theme}>
+            <ComponentListContainer id="ButtonListContainer" theme={theme}>
+                {buttonList}
+                {iconList}
+            </ComponentListContainer>
+        </StyledNavigationBar>
     );
 };

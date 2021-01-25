@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { Div } from "../../atoms";
-import { ComponentListContainerProps, ComponentListContainerTheme, ThemeSelector } from "./types";
 import { DivProps } from "../../models/styled-system";
+import { ComponentListContainerProps, ComponentListContainerTheme, ThemeSelector } from "./types";
 
 const StyledComponentListContainer: React.FunctionComponent<DivProps & { theme?: any }> = styled(Div)`
     ${props => ThemeSelector[props.theme]}
