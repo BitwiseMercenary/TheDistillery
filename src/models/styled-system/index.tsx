@@ -49,8 +49,7 @@ export type BaseProps = TypographyProps &
     StyledSystem.TextAlignProps &
     StyledSystem.ZIndexProps &
     StyledSystem.BordersProps &
-    StyledSystem.OverflowProps &
-    { layout?: string };
+    StyledSystem.OverflowProps & { layout?: string };
 
 // TODO: abstract this into chunks so that its usable for multplie atoms and html elements
 export type DivProps = BaseProps & React.HTMLAttributes<HTMLDivElement> & JSX.IntrinsicElements["div"];

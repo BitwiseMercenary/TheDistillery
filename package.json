@@ -15,7 +15,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "npm run build && echo 'robertmercado.dev' > ./build/CNAME && gh-pages -d build",
-    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+    "format": "prettier-eslint --write '**/*.{js,ts,tsx}'",
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet"
   },
   "homepage": "https://robertmercado.dev",
   "eslintConfig": {
@@ -50,6 +51,8 @@
     "eslint-plugin-prettier": "^3.3.1",
     "gh-pages": "^2.2.0",
     "prettier": "^2.2.1",
+    "prettier-eslint": "^12.0.0",
+    "prettier-eslint-cli": "^5.0.1",
     "react-scripts": "3.4.0",
     "styled-components": "^5.2.1",
     "styled-system": "^5.1.5",

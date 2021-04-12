@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import {componentId as navId, NavigationBar} from "../organisms/NavigationBar/NavigationBar";
-import {Flex} from "../atoms";
-import {colors, GlobalTheme, layouts} from "../schemes";
-import {useNavComponents} from "./useNavComponents";
-import {ThemeContext} from "../schemes/ThemeContext";
+import { componentId as navId, NavigationBar } from "../organisms/NavigationBar/NavigationBar";
+import { Flex } from "../atoms";
+import { colors, GlobalTheme, layouts } from "../schemes";
+import { useNavComponents } from "./useNavComponents";
+import { ThemeContext } from "../schemes/ThemeContext";
 
 // TO DO: Abstract this
 const HomeBase = styled(Flex)`
@@ -34,12 +34,12 @@ export const BasePage = ({ children = null, bodyStyles = {} }) => {
 
     return (
         <ThemeContext.Provider value={GlobalTheme.LEET}>
-        <HomeBase id={"BasePage"}>
+            <HomeBase id={"BasePage"}>
                 <NavigationBar layout={navLayout} tabList={tabList} iconList={iconList} />
-            <Body {...bodyStyles} id={"BasePage-Body"}>
-                {children}
-            </Body>
-        </HomeBase>
+                <Body {...bodyStyles} id={"BasePage-Body"}>
+                    {children}
+                </Body>
+            </HomeBase>
         </ThemeContext.Provider>
     );
 };
