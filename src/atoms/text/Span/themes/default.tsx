@@ -1,4 +1,4 @@
-import { colors } from "../../../../theme";
+import { colors } from "../../../../schemes";
 
 export const base = `
     font-size: 15px;

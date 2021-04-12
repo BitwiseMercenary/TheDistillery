@@ -24,7 +24,7 @@ import {
     width,
     WidthProps,
 } from "styled-system";
-import { colors } from "../../../theme";
+import { colors } from "../../../schemes";
 //import { themed } from 'Utils/theme.helpers';
 
 export type TypographyProps = ColorProps & StyledSystemTypographyProps;

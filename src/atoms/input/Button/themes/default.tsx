@@ -1,4 +1,4 @@
-import { colors } from "../../../../theme";
+import { colors } from "../../../../schemes";
 
 export const base = `
     height: 40px;

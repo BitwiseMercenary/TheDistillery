@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import { NavigationBar } from "../organisms/NavigationBar/NavigationBar";
-import { Flex } from "../atoms";
-import { NavigationBarTheme } from "../organisms/NavigationBar/types";
-import { colors } from "../theme";
+import {componentId as navId, NavigationBar} from "../organisms/NavigationBar/NavigationBar";
+import {Flex} from "../atoms";
+import {colors, GlobalTheme, layouts} from "../schemes";
+import {useNavComponents} from "./useNavComponents";
+import {ThemeContext} from "../schemes/ThemeContext";
 
 // TO DO: Abstract this
 const HomeBase = styled(Flex)`
@@ -11,12 +12,11 @@ const HomeBase = styled(Flex)`
     width: 100%;
     background-color: ${colors.LEET.background};
     background-size: cover;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 `;
 
 const Body = styled(Flex)`
-    padding-top: 30px;
     justify-content: space-between;
     width: 100%;
 
@@ -28,12 +28,18 @@ const Body = styled(Flex)`
 
 // I think this file should be moved to `/pages`. I don't think an organism should be able to use another organism.
 export const BasePage = ({ children = null, bodyStyles = {} }) => {
+    const navLayout = layouts[navId].vertical;
+
+    const { tabList, iconList } = useNavComponents();
+
     return (
-        <HomeBase>
-            <NavigationBar theme={NavigationBarTheme.LEET} />
-            <Body {...bodyStyles} id={"BasePage"}>
+        <ThemeContext.Provider value={GlobalTheme.LEET}>
+        <HomeBase id={"BasePage"}>
+                <NavigationBar layout={navLayout} tabList={tabList} iconList={iconList} />
+            <Body {...bodyStyles} id={"BasePage-Body"}>
                 {children}
             </Body>
         </HomeBase>
+        </ThemeContext.Provider>
     );
 };

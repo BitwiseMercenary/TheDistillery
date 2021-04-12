@@ -18,6 +18,6 @@ export const colors = {
 
     // Define colors for Leet theme
     [GlobalTheme.LEET]: {
-        background: "#160038",
+        background: "#261f30",
     },
 } as const;

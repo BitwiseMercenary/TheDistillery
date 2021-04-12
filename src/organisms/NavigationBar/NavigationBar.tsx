@@ -1,12 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import styled from "styled-components";
-import { Button, A, Flex } from "../../atoms";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { ATheme } from "../../atoms/links/A/types";
+import { Flex } from "../../atoms";
 import { ComponentListContainer } from "../../molecules/ComponentListContainer/ComponentListContainer";
-import { Route } from "../../constants";
-import { useHistory } from "react-router-dom";
-import { NavigationBarTheme, ThemeSelector } from "./types";
+import { ThemeSelector } from "./types";
+import { ComponentRegistry } from "../../models";
+import { ThemeContext } from "../../schemes/ThemeContext";
 
 // TODO: abstract as atom
 /*const NavContainer = styled.div`
@@ -26,64 +24,21 @@ import { NavigationBarTheme, ThemeSelector } from "./types";
         align-items: center;
     }
 `;*/
+export const componentId = ComponentRegistry.NavigationBar;
 
 const StyledNavigationBar = styled(Flex)`
     ${props => {
-        console.log({ theme: props.theme });
         return ThemeSelector[props.theme];
     }}
+    ${props => props.layout || ""}
 `;
 
-export const NavigationBar = ({ theme = NavigationBarTheme.LEET }) => {
-    const history = useHistory();
-    // TO DO: Abstract as molecule
-    const buttonList = [
-        <Button
-            id="NavBar-Home-Button"
-            key="NavBar-Home-Button"
-            onClick={() => {
-                history.push(Route.HOME);
-            }}
-        >
-            Home
-        </Button>,
-        <Button
-            id="NavBar-Resume-Button"
-            key="NavBar-Resume-Button"
-            onClick={() => {
-                history.push(Route.RESUME);
-            }}
-        >
-            Resume
-        </Button>,
-        <Button
-            id="NavBar-OtherStuff-Button"
-            key="NavBar-OtherStuff-Button"
-            onClick={() => {
-                window.alert("working on it...");
-            }}
-        >
-            Other Stuff
-        </Button>,
-    ];
-
-    const iconList = [
-        <A
-            key="LinkedIn-ButtonIcon"
-            theme={ATheme.ICONLINK}
-            href="https://www.linkedin.com/in/robert-mercado-30801990/"
-        >
-            <FaLinkedin />
-        </A>,
-        <A key="Github-ButtonIcon" theme={ATheme.ICONLINK} href="https://github.com/DarkseidOmega/">
-            <FaGithub />
-        </A>,
-    ];
+export const NavigationBar = ({ layout, tabList, iconList }) => {
+    const theme = useContext(ThemeContext);
     return (
-        // TODO: is there a better way of propogating theese themes to everone?
-        <StyledNavigationBar id={"NavigationBar"} theme={theme}>
+        <StyledNavigationBar id={"NavigationBar"} theme={theme} layout={layout}>
             <ComponentListContainer id="ButtonListContainer" theme={theme}>
-                {buttonList}
+                {tabList}
                 {iconList}
             </ComponentListContainer>
         </StyledNavigationBar>

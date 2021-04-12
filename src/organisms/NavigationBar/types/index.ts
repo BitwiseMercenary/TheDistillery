@@ -1,5 +1,5 @@
 import { leet } from "../themes";
-import { GlobalTheme } from "../../../theme";
+import { GlobalTheme } from "../../../schemes";
 
 // can't extend enums... :(
 export const NavigationBarTheme = {

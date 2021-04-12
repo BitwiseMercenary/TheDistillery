@@ -1,4 +1,4 @@
-import { colors } from "../../../../theme";
+import { colors } from "../../../../schemes";
 
 export const subheader = `
     font-size: 20px;

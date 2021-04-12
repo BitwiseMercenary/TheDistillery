@@ -1,6 +1,6 @@
 import { base, vertical, leet } from "../themes";
 import { DivProps } from "../../../models/styled-system";
-import { GlobalTheme } from "../../../theme";
+import { GlobalTheme } from "../../../schemes";
 
 export const ComponentListContainerTheme = {
     ...GlobalTheme,

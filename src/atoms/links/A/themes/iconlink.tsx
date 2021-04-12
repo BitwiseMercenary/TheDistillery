@@ -1,4 +1,4 @@
-import { colors } from "../../../../theme";
+import { colors } from "../../../../schemes";
 
 export const iconlink = `
     transition: all .5s;
