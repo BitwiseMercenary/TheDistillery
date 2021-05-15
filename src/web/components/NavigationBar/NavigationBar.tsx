@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import styled from "styled-components";
-import { Flex } from "../../atoms";
-import { ComponentListContainer } from "../../molecules/ComponentListContainer/ComponentListContainer";
-import { ThemeSelector } from "./types";
-import { ComponentRegistry } from "../../models";
-import { ThemeContext } from "../../schemes/ThemeContext";
+import { Flex } from "../../../atoms";
+import { ComponentListContainer } from "../../../molecules/ComponentListContainer/ComponentListContainer";
+import { ComponentRegistry } from "../../../models";
+import { ThemeContext } from "../../../schemes/ThemeContext";
+import {ComponentListContainerLayout as NavLayout} from "../../../molecules/ComponentListContainer/types";
 
 // TODO: abstract as atom
 /*const NavContainer = styled.div`
@@ -27,17 +27,12 @@ import { ThemeContext } from "../../schemes/ThemeContext";
 export const componentId = ComponentRegistry.NavigationBar;
 
 const StyledNavigationBar = styled(Flex)`
-    ${props => {
-        return ThemeSelector[props.theme];
-    }}
-    ${props => props.layout || ""}
 `;
 
-export const NavigationBar = ({ layout, tabList, iconList }) => {
-    const theme = useContext(ThemeContext);
+export const NavigationBar = ({ tabList, iconList }) => {
     return (
-        <StyledNavigationBar id={"NavigationBar"} theme={theme} layout={layout}>
-            <ComponentListContainer id="ButtonListContainer" theme={theme}>
+        <StyledNavigationBar id={"NavigationBar"} >
+            <ComponentListContainer id="ButtonListContainer" layout={NavLayout.VERTICAL}>
                 {tabList}
                 {iconList}
             </ComponentListContainer>
