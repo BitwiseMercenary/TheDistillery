@@ -4,7 +4,7 @@ import { Flex } from "../../../atoms";
 import { ComponentListContainer } from "../../../molecules/ComponentListContainer/ComponentListContainer";
 import { ComponentRegistry } from "../../../models";
 import { ThemeContext } from "../../../schemes/ThemeContext";
-import {ComponentListContainerLayout as NavLayout} from "../../../molecules/ComponentListContainer/types";
+import {ComponentListContainerLayout as NavLayout} from "../../../molecules/ComponentListContainer/helpers";
 
 // TODO: abstract as atom
 /*const NavContainer = styled.div`
@@ -24,7 +24,6 @@ import {ComponentListContainerLayout as NavLayout} from "../../../molecules/Comp
         align-items: center;
     }
 `;*/
-export const componentId = ComponentRegistry.NavigationBar;
 
 const StyledNavigationBar = styled(Flex)`
 `;
@@ -32,7 +31,7 @@ const StyledNavigationBar = styled(Flex)`
 export const NavigationBar = ({ tabList, iconList }) => {
     return (
         <StyledNavigationBar id={"NavigationBar"} >
-            <ComponentListContainer id="ButtonListContainer" layout={NavLayout.VERTICAL}>
+            <ComponentListContainer id="ButtonListContainer" layout={NavLayout.VERTICAL} variant={"base"}>
                 {tabList}
                 {iconList}
             </ComponentListContainer>

@@ -1,15 +1,26 @@
-import React from "react";
+import React, {useContext} from "react";
 import styled from "styled-components";
-import { ButtonProps, ThemeSelector, ButtonTheme } from "./types";
+import { ButtonProps } from "./helpers";
+import {ThemeContext} from "../../../schemes/ThemeContext";
+import {ComponentRegistry} from "../../../models";
+import {select} from "../../../schemes/Theme";
+import {baseButton} from "./themes";
 
 const ThemedButton = styled.button`
-    ${(props: ButtonProps) => ThemeSelector[props.theme]}
+    ${(props: ButtonProps) => props.styles }
 `;
 
-export const Button = (props: React.HTMLAttributes<HTMLButtonElement>) => {
-    return <ThemedButton {...props}>{props.children}</ThemedButton>;
-};
+const ID = ComponentRegistry.Button;
 
-Button.defaultProps = {
-    theme: ButtonTheme.DEFAULT,
+export const Button = (props: ButtonProps) => {
+    const { theme, variant, styles = baseButton } = props;
+
+    const contextTheme = useContext(ThemeContext);
+    const customTheme = theme || contextTheme;
+
+    const customStyles = (customTheme || variant) ? select(customTheme, ID, variant) : styles;
+
+    console.log({ theme, contextTheme, variant, ID, customStyles });
+
+    return <ThemedButton {...props} styles={customStyles}>{props.children}</ThemedButton>;
 };

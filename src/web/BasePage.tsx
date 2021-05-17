@@ -2,15 +2,16 @@ import React from "react";
 import styled from "styled-components";
 import { NavigationBar } from "./components/NavigationBar/NavigationBar";
 import { Flex } from "../atoms";
-import { colors, GlobalTheme } from "../schemes";
+import { colors, Theme } from "../schemes";
 import { useNavComponents } from "./useNavComponents";
 import { ThemeContext } from "../schemes/ThemeContext";
+import {ThemeProvider} from "../schemes/ThemeProvider";
 
 // TO DO: Abstract this
 const HomeBase = styled(Flex)`
     height: 100%;
     width: 100%;
-    background-color: ${colors.LEET.background};
+    background-color: ${colors.Leet.background};
     background-size: cover;
     flex-direction: row;
     align-items: center;
@@ -32,13 +33,13 @@ export const BasePage = ({ children = null, bodyStyles = {} }) => {
     const { tabList, iconList } = useNavComponents();
 
     return (
-        <ThemeContext.Provider value={GlobalTheme.LEET}>
+        <ThemeProvider value={Theme.Leet}>
             <HomeBase id={"BasePage"}>
                 <NavigationBar tabList={tabList} iconList={iconList}/>
                 <Body {...bodyStyles} id={"BasePage-Body"}>
                     {children}
                 </Body>
             </HomeBase>
-        </ThemeContext.Provider>
+        </ThemeProvider>
     );
 };

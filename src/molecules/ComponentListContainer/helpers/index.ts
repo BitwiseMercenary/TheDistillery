@@ -1,16 +1,9 @@
-import { leet } from "../themes";
 import { base as baseL, vertical as verticalL } from "../layout";
 import { DivProps } from "../../../models/styled-system";
-import { GlobalTheme } from "../../../schemes";
 
 export const ComponentListContainerLayout = {
     DEFAULT: "DEFAULT",
     VERTICAL: "VERTICAL",
-} as const;
-
-// TO DO: Refactor themes so that we can have components uphold contracts to provide theme implementations
-export const ThemeSelector = {
-    [GlobalTheme.LEET]: leet
 } as const;
 
 export const LayoutSelector = {
@@ -19,6 +12,8 @@ export const LayoutSelector = {
 } as const;
 
 export type ComponentListContainerProps = DivProps & {
-    theme?: keyof typeof GlobalTheme | undefined;
-    layout?: keyof typeof LayoutSelector | undefined;
+    theme?: any;
+    styles?: string;
+    variant?: string;
+    layout?: string;
 };

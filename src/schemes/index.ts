@@ -1,2 +1,3 @@
-export { GlobalTheme } from "./GlobalTheme";
 export { colors } from "./colors";
+export { Theme } from "./Theme";
+

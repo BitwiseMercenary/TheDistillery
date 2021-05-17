@@ -1,3 +1,4 @@
-export enum ComponentRegistry {
-    NavigationBar = "NavigationBar",
+export const ComponentRegistry = {
+    Button: "Button",
+    ComponentListContainer: "ComponentListContainer",
 }

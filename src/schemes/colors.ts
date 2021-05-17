@@ -1,4 +1,4 @@
-import { GlobalTheme } from "./GlobalTheme";
+import {ThemeId} from "./ThemeId";
 
 export const colors = {
     // shades of white
@@ -17,7 +17,8 @@ export const colors = {
     red: "#DF0808",
 
     // Define colors for Leet theme
-    [GlobalTheme.LEET]: {
-        background: "#261f30",
+    [ThemeId.Leet]: {
+        background: "#272f30",
+        navText: "#FFFFFF",
     },
 } as const;

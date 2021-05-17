@@ -1,6 +1,6 @@
 import { colors } from "../../../../schemes";
 
-export const base = `
+export const baseButton = `
     height: 40px;
     background: transparent;
     font-size: 18px;
