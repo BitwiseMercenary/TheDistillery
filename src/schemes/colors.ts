@@ -1,4 +1,4 @@
-import {ThemeId} from "./ThemeId";
+import { ThemeId } from "./ThemeId";
 
 export const colors = {
     // shades of white
@@ -20,5 +20,6 @@ export const colors = {
     [ThemeId.Leet]: {
         background: "#272f30",
         navText: "#FFFFFF",
+        selectedNavButton: "#404B4CFF",
     },
 } as const;

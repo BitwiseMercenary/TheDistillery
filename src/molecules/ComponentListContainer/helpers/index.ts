@@ -8,7 +8,7 @@ export const ComponentListContainerLayout = {
 
 export const LayoutSelector = {
     [ComponentListContainerLayout.DEFAULT]: baseL,
-    [ComponentListContainerLayout.VERTICAL]: verticalL
+    [ComponentListContainerLayout.VERTICAL]: verticalL,
 } as const;
 
 export type ComponentListContainerProps = DivProps & {

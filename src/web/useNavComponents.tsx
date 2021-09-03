@@ -1,17 +1,17 @@
-import {A, Button} from "../atoms";
-import {Route} from "../constants";
-import {ATheme} from "../atoms/links/A/types";
-import {FaGithub, FaLinkedin} from "react-icons/fa";
+import { A, Button } from "../atoms";
+import { Route } from "../constants";
+import { ATheme } from "../atoms/links/A/types";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import React from "react";
-import {useHistory} from "react-router-dom";
-import {Theme} from "../schemes";
+import { useHistory } from "react-router-dom";
+import TsFile from "@assets/TypeScriptFile.svg";
+import { Theme } from "../schemes";
 
 export const useNavComponents = () => {
     const history = useHistory();
 
     const tabList = [
         <Button
-            theme={Theme.Leet}
             variant="nav"
             id="NavBar-Home-Button"
             key="NavBar-Home-Button"
@@ -19,10 +19,9 @@ export const useNavComponents = () => {
                 history.push(Route.HOME);
             }}
         >
-            Home
+            <TsFile /> Home
         </Button>,
         <Button
-            theme={Theme.Leet}
             variant="nav"
             id="NavBar-Resume-Button"
             key="NavBar-Resume-Button"
@@ -33,7 +32,6 @@ export const useNavComponents = () => {
             Resume
         </Button>,
         <Button
-            theme={Theme.Leet}
             variant="nav"
             id="NavBar-OtherStuff-Button"
             key="NavBar-OtherStuff-Button"

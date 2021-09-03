@@ -5,7 +5,7 @@ import { Flex } from "../atoms";
 import { colors, Theme } from "../schemes";
 import { useNavComponents } from "./useNavComponents";
 import { ThemeContext } from "../schemes/ThemeContext";
-import {ThemeProvider} from "../schemes/ThemeProvider";
+import { ThemeProvider } from "../schemes/ThemeProvider";
 
 // TO DO: Abstract this
 const HomeBase = styled(Flex)`
@@ -29,13 +29,12 @@ const Body = styled(Flex)`
 
 // I think this file should be moved to `/pages`. I don't think an organism should be able to use another organism.
 export const BasePage = ({ children = null, bodyStyles = {} }) => {
-
     const { tabList, iconList } = useNavComponents();
 
     return (
         <ThemeProvider value={Theme.Leet}>
             <HomeBase id={"BasePage"}>
-                <NavigationBar tabList={tabList} iconList={iconList}/>
+                <NavigationBar tabList={tabList} iconList={iconList} />
                 <Body {...bodyStyles} id={"BasePage-Body"}>
                     {children}
                 </Body>
