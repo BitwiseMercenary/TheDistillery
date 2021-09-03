@@ -4,8 +4,7 @@ import { ATheme } from "../atoms/links/A/types";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import React from "react";
 import { useHistory } from "react-router-dom";
-import TsFile from "@assets/TypeScriptFile.svg";
-import { Theme } from "../schemes";
+import { ReactComponent as TsFile } from "../assets/TypeScriptFile.svg";
 
 export const useNavComponents = () => {
     const history = useHistory();
@@ -29,7 +28,7 @@ export const useNavComponents = () => {
                 history.push(Route.RESUME);
             }}
         >
-            Resume
+            <TsFile /> Resume
         </Button>,
         <Button
             variant="nav"
@@ -39,7 +38,7 @@ export const useNavComponents = () => {
                 window.alert("working on it...");
             }}
         >
-            Other Stuff
+            <TsFile /> Other Stuff
         </Button>,
     ];
 
