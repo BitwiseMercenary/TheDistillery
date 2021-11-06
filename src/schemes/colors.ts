@@ -20,6 +20,7 @@ export const colors = {
     [ThemeId.Leet]: {
         background: "#272f30",
         navText: "#FFFFFF",
-        selectedNavButton: "#404B4CFF",
-    },
+        navBorder: "#5b5f60",
+        selectedNavButton: "#443d4d",
+    } as const,
 } as const;

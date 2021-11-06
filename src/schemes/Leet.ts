@@ -1,11 +1,12 @@
 import { ComponentRegistry } from "../models";
 import { leetBaseButton, leetNavButton } from "../atoms/input/Button/themes";
 import { ThemeId } from "./ThemeId";
+import { leetBaseComponentListContainer } from "../molecules/ComponentListContainer/themes";
 
 export const Leet = {
     id: ThemeId.Leet,
     [ComponentRegistry.ComponentListContainer]: {
-        base: "",
+        base: leetBaseComponentListContainer,
     },
     [ComponentRegistry.Button]: {
         nav: leetNavButton,

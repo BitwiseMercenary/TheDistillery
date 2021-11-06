@@ -4,7 +4,6 @@ import { Flex, Span } from "../../atoms";
 import { SpanTheme } from "../../atoms/text/Span/types";
 import { Route } from "../../constants";
 import { BasePage } from "../";
-import { DesktopWindow } from "../../molecules/DesktopWindow/DesktopWindow";
 import P from "../../atoms/text/P/P";
 
 const StyledImg = styled.div`

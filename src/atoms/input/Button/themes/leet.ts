@@ -9,7 +9,7 @@ export const leetBaseButton = `
 export const leetNavButton = `
     height: 40px;
     background: transparent;
-    font-size: 18px;
+    font-size: 14px;
     color: ${colors.Leet.navText};
     border: none;
     cursor: pointer;

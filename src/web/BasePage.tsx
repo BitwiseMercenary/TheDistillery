@@ -1,16 +1,17 @@
 import React from "react";
 import styled from "styled-components";
-import { NavigationBar } from "./components/NavigationBar/NavigationBar";
+import { NavigationBar } from "./components/NavigationBar";
 import { Flex } from "../atoms";
 import { colors, Theme } from "../schemes";
 import { useNavComponents } from "./useNavComponents";
-import { ThemeContext } from "../schemes/ThemeContext";
 import { ThemeProvider } from "../schemes/ThemeProvider";
+import { IdeActionToolBarSet } from "./components/IdeActionToolBarSet";
+
+const FeatureToggle = true as const;
 
 // TO DO: Abstract this
 const HomeBase = styled(Flex)`
     height: 100%;
-    width: 100%;
     background-color: ${colors.Leet.background};
     background-size: cover;
     flex-direction: row;
@@ -33,12 +34,15 @@ export const BasePage = ({ children = null, bodyStyles = {} }) => {
 
     return (
         <ThemeProvider value={Theme.Leet}>
-            <HomeBase id={"BasePage"}>
-                <NavigationBar tabList={tabList} iconList={iconList} />
-                <Body {...bodyStyles} id={"BasePage-Body"}>
-                    {children}
-                </Body>
-            </HomeBase>
+            <Flex height={"100%"} width={"100%"} flexDirection={"column"}>
+                {FeatureToggle && <IdeActionToolBarSet currentLocation={"Home.tsx"} />}
+                <HomeBase id={"BasePage"}>
+                    <NavigationBar tabList={tabList} iconList={iconList} />
+                    <Body {...bodyStyles} id={"BasePage-Body"}>
+                        {children}
+                    </Body>
+                </HomeBase>
+            </Flex>
         </ThemeProvider>
     );
 };

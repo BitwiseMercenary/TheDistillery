@@ -1,2 +1,2 @@
-export const leet = `
+export const leetBaseComponentListContainer = `
 `;

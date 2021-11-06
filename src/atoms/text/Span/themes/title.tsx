@@ -1,7 +1,7 @@
 import { colors } from "../../../../schemes";
 
 export const title = `
-    font-family: Copperplate;
+    font-family: JetBrainsMono;
     font-size: 60px;
     color: black;
     font-weight: 600;
