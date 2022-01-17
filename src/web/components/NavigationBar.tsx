@@ -7,11 +7,12 @@ import { ComponentListContainerLayout as NavLayout } from "../../molecules/Compo
 import { ReactComponent as Folder } from "../../assets/Folder.svg";
 import { ReactComponent as ModuleDirectory } from "../../assets/ModuleDirectory.svg";
 import { colors } from "../../schemes";
+import { CollapseIcon } from "./CollapseIcon";
 
 const NavDirButton = ({ IconComponent, text }) => {
     return (
         <Flex color={colors.Leet.navText} id={`NavigationBar-DirButton-${text}`}>
-            <IconComponent /> <Div paddingLeft={"5px"}>{text}</Div>
+            <CollapseIcon direction={"down"} /> <IconComponent /> <Div paddingLeft={"5px"}>{text}</Div>
         </Flex>
     );
 };

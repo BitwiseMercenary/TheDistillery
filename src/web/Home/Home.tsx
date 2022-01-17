@@ -35,7 +35,7 @@ const Responsive = styled(Flex)`
 
 export const Home = () => {
     return (
-        <BasePage>
+        <BasePage name={"Home"}>
             <Responsive>
                 <StyledImg />
             </Responsive>

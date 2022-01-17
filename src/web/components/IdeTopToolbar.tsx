@@ -13,18 +13,26 @@ const HorizontalTopBar = styled(Flex)`
     border-bottom: solid 1px ${colors.Leet.navBorder};
 `;
 
-export const IdeTopToolbar = ({ currentLocation }) => {
+const CurrentLocationTracker = ({ currentLocation }) => {
     return (
-        <HorizontalTopBar>
+        <Flex id={"CurrentLocationTracker"} padding="4.5px">
             <Div>TheDistillery</Div>
-            <Div>
+            <Div padding={"2px 8px 0 8px"}>
                 <NavBarSeparator />
             </Div>
             <Div>src</Div>
-            <Div>
+            <Div padding={"2px 8px 0 8px"}>
                 <NavBarSeparator />
             </Div>
-            <Div>{currentLocation}</Div>
+            <Div>{currentLocation}.tsx</Div>
+        </Flex>
+    );
+};
+
+export const IdeTopToolbar = ({ currentLocation }) => {
+    return (
+        <HorizontalTopBar id={"IdeTopToolbar"}>
+            <CurrentLocationTracker currentLocation={currentLocation} />
         </HorizontalTopBar>
     );
 };

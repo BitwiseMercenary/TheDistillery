@@ -7,8 +7,6 @@ import { useNavComponents } from "./useNavComponents";
 import { ThemeProvider } from "../schemes/ThemeProvider";
 import { IdeActionToolBarSet } from "./components/IdeActionToolBarSet";
 
-const FeatureToggle = true as const;
-
 // TO DO: Abstract this
 const HomeBase = styled(Flex)`
     height: 100%;
@@ -29,13 +27,13 @@ const Body = styled(Flex)`
 `;
 
 // I think this file should be moved to `/pages`. I don't think an organism should be able to use another organism.
-export const BasePage = ({ children = null, bodyStyles = {} }) => {
+export const BasePage = ({ children = null, bodyStyles = {}, name }) => {
     const { tabList, iconList } = useNavComponents();
 
     return (
         <ThemeProvider value={Theme.Leet}>
             <Flex height={"100%"} width={"100%"} flexDirection={"column"}>
-                {FeatureToggle && <IdeActionToolBarSet currentLocation={"Home.tsx"} />}
+                <IdeActionToolBarSet currentLocation={name} />
                 <HomeBase id={"BasePage"}>
                     <NavigationBar tabList={tabList} iconList={iconList} />
                     <Body {...bodyStyles} id={"BasePage-Body"}>

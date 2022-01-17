@@ -13,7 +13,7 @@ const HorizontalTopBar = styled(Flex)`
 
 export const IdeFileActionBar = () => {
     return (
-        <HorizontalTopBar>
+        <HorizontalTopBar id={"IdeFileActionBar"}>
             <RMLogo style={{ width: "18px", height: "18px" }} />
             <Button variant={"base"}>File</Button>
             <Button variant={"base"}>Edit</Button>

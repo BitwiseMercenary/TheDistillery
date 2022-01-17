@@ -5,7 +5,7 @@ import { WorkExperience } from "./sections/WorkExperience";
 
 export const Resume = () => {
     return (
-        <BasePage bodyStyles={{ flexDirection: "column", alignItems: "center" }}>
+        <BasePage bodyStyles={{ flexDirection: "column", alignItems: "center" }} name={"Resume"}>
             <h1>Resume</h1>
             <WorkExperience />
             <Flex>

@@ -20,8 +20,6 @@ export const Button = (props: ButtonProps) => {
 
     const customStyles = customTheme || variant ? select(customTheme, ID, variant) : styles;
 
-    console.log({ theme, contextTheme, variant, ID, customStyles });
-
     return (
         <ThemedButton {...props} styles={customStyles}>
             {props.children}
