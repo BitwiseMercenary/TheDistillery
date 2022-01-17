@@ -5,7 +5,7 @@ import { Flex } from "../atoms";
 import { colors, Theme } from "../schemes";
 import { useNavComponents } from "./useNavComponents";
 import { ThemeProvider } from "../schemes/ThemeProvider";
-import { IdeActionToolBarSet } from "./components/IdeActionToolBarSet";
+import { IdeTopToolbar } from "./components/IdeTopToolbar";
 
 // TO DO: Abstract this
 const HomeBase = styled(Flex)`
@@ -33,7 +33,7 @@ export const BasePage = ({ children = null, bodyStyles = {}, name }) => {
     return (
         <ThemeProvider value={Theme.Leet}>
             <Flex height={"100%"} width={"100%"} flexDirection={"column"}>
-                <IdeActionToolBarSet currentLocation={name} />
+                <IdeTopToolbar currentLocation={name} />
                 <HomeBase id={"BasePage"}>
                     <NavigationBar tabList={tabList} iconList={iconList} />
                     <Body {...bodyStyles} id={"BasePage-Body"}>

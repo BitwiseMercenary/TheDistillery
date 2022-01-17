@@ -5,6 +5,7 @@ import { Div, Flex } from "../../atoms";
 import { ReactComponent as NavBarSeparator } from "../../assets/NavBarSeparator.svg";
 
 import { colors } from "../../schemes";
+import { ReactComponent as RMLogo } from "../../assets/RM.svg";
 
 const HorizontalTopBar = styled(Flex)`
     background: ${colors.Leet.background};
@@ -32,6 +33,7 @@ const CurrentLocationTracker = ({ currentLocation }) => {
 export const IdeTopToolbar = ({ currentLocation }) => {
     return (
         <HorizontalTopBar id={"IdeTopToolbar"}>
+            <RMLogo style={{ width: "18px", height: "18px" }} />
             <CurrentLocationTracker currentLocation={currentLocation} />
         </HorizontalTopBar>
     );
