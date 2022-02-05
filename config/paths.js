@@ -66,8 +66,6 @@ module.exports = {
     appNodeModules: resolveApp("node_modules"),
     swSrc: resolveModule(resolveApp, "src/service-worker"),
     publicUrlOrPath,
-    // aliases
-    "@assets": resolveApp("src/assets"),
 };
 
 module.exports.moduleFileExtensions = moduleFileExtensions;

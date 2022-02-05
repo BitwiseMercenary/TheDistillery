@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 
 import { A, Button, Div, Flex } from "../atoms";
 import { Route } from "../constants";
-import { ATheme } from "../atoms/links/A/types";
+import { ATheme } from "../atoms/links/A/helpers";
 import { ReactComponent as TsFileIcon } from "../assets/TSX.svg";
 
 const TsFileNavButton = ({ dataId, destination, text }) => {
@@ -52,18 +52,5 @@ export const useNavComponents = () => {
         />,
     ];
 
-    const iconList = [
-        <A
-            key="LinkedIn-ButtonIcon"
-            theme={ATheme.ICONLINK}
-            href="https://www.linkedin.com/in/robert-mercado-30801990/"
-        >
-            <FaLinkedin />
-        </A>,
-        <A key="Github-ButtonIcon" theme={ATheme.ICONLINK} href="https://github.com/DarkseidOmega/">
-            <FaGithub />
-        </A>,
-    ];
-
-    return { tabList, iconList };
+    return { tabList };
 };

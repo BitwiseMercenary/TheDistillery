@@ -4,10 +4,11 @@ import { Div, Flex } from "../../atoms";
 import { ComponentListContainer } from "../../molecules/ComponentListContainer/ComponentListContainer";
 import { ComponentListContainerLayout as NavLayout } from "../../molecules/ComponentListContainer/helpers";
 
-import { ReactComponent as Folder } from "../../assets/Folder.svg";
-import { ReactComponent as ModuleDirectory } from "../../assets/ModuleDirectory.svg";
+import { ReactComponent as Folder } from "@assets/Folder.svg";
+import { ReactComponent as ModuleDirectory } from "@assets/ModuleDirectory.svg";
 import { colors } from "../../schemes";
 import { CollapseIcon } from "./CollapseIcon";
+import { Dropdown } from "../../molecules/Dropdown";
 
 const NavDirButton = ({ IconComponent, text }) => {
     return (
@@ -24,15 +25,15 @@ const StyledNavigationBar = styled(Flex)`
     border-right: solid 1px ${colors.Leet.navBorder};
 `;
 
-export const NavigationBar = ({ tabList, iconList }) => {
+export const NavigationBar = ({ tabList }) => {
     return (
         <StyledNavigationBar id={"NavigationBar"}>
             <NavDirButton IconComponent={ModuleDirectory} text="TheDistillery" />
             <NavDirButton IconComponent={Folder} text="src" />
             <ComponentListContainer id="ButtonListContainer" layout={NavLayout.VERTICAL} variant={"base"}>
                 {tabList}
-                {iconList}
             </ComponentListContainer>
+            <Dropdown>Content</Dropdown>
         </StyledNavigationBar>
     );
 };

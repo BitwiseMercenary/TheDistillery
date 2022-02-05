@@ -17,8 +17,10 @@ const HomeBase = styled(Flex)`
 `;
 
 const Body = styled(Flex)`
-    justify-content: space-between;
+    background-color: ${colors.white};
     width: 100%;
+    height: 100%;
+    align-items: center;
 
     @media only screen and (max-width: 625px) {
         flex-direction: column;
@@ -28,14 +30,14 @@ const Body = styled(Flex)`
 
 // I think this file should be moved to `/pages`. I don't think an organism should be able to use another organism.
 export const BasePage = ({ children = null, bodyStyles = {}, name }) => {
-    const { tabList, iconList } = useNavComponents();
+    const { tabList } = useNavComponents();
 
     return (
         <ThemeProvider value={Theme.Leet}>
             <Flex height={"100%"} width={"100%"} flexDirection={"column"}>
                 <IdeTopToolbar currentLocation={name} />
                 <HomeBase id={"BasePage"}>
-                    <NavigationBar tabList={tabList} iconList={iconList} />
+                    <NavigationBar tabList={tabList} />
                     <Body {...bodyStyles} id={"BasePage-Body"}>
                         {children}
                     </Body>

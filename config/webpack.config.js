@@ -319,6 +319,16 @@ module.exports = function (webpackEnv) {
                     "scheduler/tracing": "scheduler/tracing-profiling",
                 }),
                 ...(modules.webpackAliases || {}),
+                "@assets": path.resolve('src/assets/'),
+                "@atoms": path.resolve('src/atoms/'),
+                "@constants": path.resolve('src/constants/'),
+                "@design-tokens": path.resolve('src/design-tokens/'),
+                "@fonts": path.resolve('src/fonts/'),
+                "@models": path.resolve('src/models/'),
+                "@molecules": path.resolve('src/molecules/'),
+                "@organisms": path.resolve('src/organisms/'),
+                "@schemes": path.resolve('src/schemes/'),
+                "@web/components": path.resolve('src/web/components/'),
             },
             plugins: [
                 // Adds support for installing with Plug'n'Play, leading to faster installs and adding

@@ -22,5 +22,7 @@ export const colors = {
         navText: "#FFFFFF",
         navBorder: "#5b5f60",
         selectedNavButton: "#443d4d",
+        iconLinkButton: "#49a17d",
+        iconLinkButtonHover: "#49a165",
     } as const,
 } as const;

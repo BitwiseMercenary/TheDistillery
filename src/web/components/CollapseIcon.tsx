@@ -1,6 +1,5 @@
 import React from "react";
-import { Flex } from "../../atoms";
-import { ReactComponent as ArrowExpand } from "../../assets/ArrowExpand.svg";
+import { ReactComponent as ArrowExpand } from "@assets/ArrowExpand.svg";
 import styled from "styled-components";
 
 const Direction = {

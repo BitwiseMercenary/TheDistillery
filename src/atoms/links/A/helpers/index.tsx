@@ -1,4 +1,4 @@
-import { base, iconlink } from "../themes";
+import { base, leetIconlink } from "../themes";
 
 export enum ATheme {
     DEFAULT,
@@ -7,5 +7,5 @@ export enum ATheme {
 
 export const ThemeSelector = {
     [ATheme.DEFAULT]: base,
-    [ATheme.ICONLINK]: iconlink,
+    [ATheme.ICONLINK]: leetIconlink,
 } as const;

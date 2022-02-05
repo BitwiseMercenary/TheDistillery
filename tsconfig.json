@@ -21,10 +21,21 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": [
-    "src"
+    "src",
+    "./src/**/*"
   ],
   "baseUrl": ".",
+  "rootDir": ".",
   "paths": {
-    "@assets/*": ["src/assets/*"]
+    "@assets/*": ["src/assets/*"],
+    "@atoms/*": ["src/atoms/*"],
+    "@design-tokens/*": ["src/design-tokens/*"],
+    "@constants/*": ["src/constants/*"],
+    "@fonts/*": ["src/fonts/*"],
+    "@models/*": ["src/models/*"],
+    "@molecules/*": ["src/molecules/*"],
+    "@organisms/*": ["src/organisms/*"],
+    "@schemes/*": ["src/schemes/*"],
+    "@web/components/*": ["src/web/components/*"]
   }
 }
