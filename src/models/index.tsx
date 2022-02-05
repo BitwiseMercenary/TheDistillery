@@ -1,2 +1,4 @@
 import * as StyledSystemTypes from "./styled-system";
-export { StyledSystemTypes };
+import { ComponentRegistry } from "./ComponentRegistry";
+
+export { ComponentRegistry, StyledSystemTypes };

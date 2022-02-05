@@ -1,2 +1,2 @@
 export { base } from "./default";
-export { iconlink } from "./iconlink";
+export { leetIconlink } from "./leetIconlink";

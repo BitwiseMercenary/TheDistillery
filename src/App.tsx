@@ -2,9 +2,9 @@ import React from "react";
 import { Switch, Route, HashRouter } from "react-router-dom";
 
 import "./App.css";
-import { Home, HomeV2 } from "./pages";
+import { Home } from "./web";
 import { Route as RoutePath } from "./constants";
-import { Resume } from "./pages/Resume/Resume";
+import { Resume } from "./web/Resume/Resume";
 
 function App() {
     return (
@@ -14,9 +14,6 @@ function App() {
                 <Switch>
                     <Route exact path={RoutePath.HOME}>
                         <Home />
-                    </Route>
-                    <Route exact path={RoutePath.HOMEV2}>
-                        <HomeV2 />
                     </Route>
                     <Route exact path={RoutePath.RESUME}>
                         <Resume />

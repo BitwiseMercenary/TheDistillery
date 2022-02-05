@@ -1,5 +1,6 @@
+import React from "react";
 import styled from "styled-components";
-import {baseProps, DivProps} from "../../models/styled-system";
+import { baseProps, DivProps } from "../../models/styled-system";
 
 export const Div: React.FunctionComponent<DivProps> = styled.div(
     {
