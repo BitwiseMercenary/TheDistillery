@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Flex, Span } from "../../atoms";
-import { SpanTheme } from "../../atoms/text/Span/types";
+import { SpanTheme } from "@atoms/text/Span/types";
 import { Route } from "../../constants";
 import { BasePage } from "../";
 import P from "../../atoms/text/P/P";

@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import styled from "styled-components";
 import { ButtonProps } from "./helpers";
-import { ThemeContext } from "../../../schemes/ThemeContext";
-import { ComponentRegistry } from "../../../models";
-import { select } from "../../../schemes/Theme";
+import { ThemeContext } from "@schemes/ThemeContext";
+import { ComponentRegistry } from "@models/index";
+import { select } from "@schemes/Theme";
 import { baseButton } from "./themes";
 
 const ThemedButton = styled.button`

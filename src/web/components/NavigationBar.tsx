@@ -1,14 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 import { Div, Flex } from "../../atoms";
-import { ComponentListContainer } from "../../molecules/ComponentListContainer/ComponentListContainer";
-import { ComponentListContainerLayout as NavLayout } from "../../molecules/ComponentListContainer/helpers";
+import { ComponentListContainer } from "@molecules/ComponentListContainer/ComponentListContainer";
+import { ComponentListContainerLayout as NavLayout } from "@molecules/ComponentListContainer/helpers";
 
 import { ReactComponent as Folder } from "@assets/Folder.svg";
 import { ReactComponent as ModuleDirectory } from "@assets/ModuleDirectory.svg";
 import { colors } from "../../schemes";
 import { CollapseIcon } from "./CollapseIcon";
-import { Dropdown } from "../../molecules/Dropdown";
+import { Slideout } from "@molecules/Slideout";
 
 const NavDirButton = ({ IconComponent, text }) => {
     return (
@@ -28,12 +28,13 @@ const StyledNavigationBar = styled(Flex)`
 export const NavigationBar = ({ tabList }) => {
     return (
         <StyledNavigationBar id={"NavigationBar"}>
-            <NavDirButton IconComponent={ModuleDirectory} text="TheDistillery" />
-            <NavDirButton IconComponent={Folder} text="src" />
-            <ComponentListContainer id="ButtonListContainer" layout={NavLayout.VERTICAL} variant={"base"}>
-                {tabList}
-            </ComponentListContainer>
-            <Dropdown>Content</Dropdown>
+            <Slideout toggleComponent={<NavDirButton IconComponent={ModuleDirectory} text="TheDistillery" />}>
+                <Slideout toggleComponent={<NavDirButton IconComponent={Folder} text="src" />}>
+                    <ComponentListContainer id="ButtonListContainer" layout={NavLayout.VERTICAL} variant={"base"}>
+                        {tabList}
+                    </ComponentListContainer>
+                </Slideout>
+            </Slideout>
         </StyledNavigationBar>
     );
 };

@@ -1,11 +1,9 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { useHistory } from "react-router-dom";
 
-import { A, Button, Div, Flex } from "../atoms";
+import { Button, Div, Flex } from "../atoms";
 import { Route } from "../constants";
-import { ATheme } from "../atoms/links/A/helpers";
-import { ReactComponent as TsFileIcon } from "../assets/TSX.svg";
+import { ReactComponent as TsFileIcon } from "@assets/TSX.svg";
 
 const TsFileNavButton = ({ dataId, destination, text }) => {
     const history = useHistory();
