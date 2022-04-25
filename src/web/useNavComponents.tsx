@@ -1,30 +1,25 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
 
-import { Button, Div, Flex } from "../atoms";
 import { Route } from "../constants";
 import { ReactComponent as TsFileIcon } from "@assets/TSX.svg";
 
 const TsFileNavButton = ({ dataId, destination, text }) => {
-    const history = useHistory();
-
     return (
-        <Button
-            variant="nav"
+        <button
             id={dataId}
             key={dataId}
             onClick={() => {
                 if (destination) {
-                    history.push(destination);
+                    // history.push(destination);
                 } else {
                     window.alert("working on it...");
                 }
             }}
         >
-            <Flex>
-                <TsFileIcon /> <Div paddingLeft="5px">{text}</Div>
-            </Flex>
-        </Button>
+            <div>
+                <TsFileIcon /> <div>{text}</div>
+            </div>
+        </button>
     );
 };
 
