@@ -1,25 +1,20 @@
 import React from "react";
 import styled from "@emotion/styled";
 import { supaBigFontSize, regular, fontNames } from "@constants/typography";
-import { colors } from "@constants/colors";
+import { base } from "@constants/colors";
 import { Box } from "@mui/material";
 
-import { FloatingText, MenuButton } from "../../components";
+import { ReactComponent as Github } from "@assets/Github.svg";
+import { ReactComponent as LinkedIn } from "@assets/LinkedIn.svg";
+import { ReactComponent as DownloadCV } from "@assets/DownloadCV.svg";
+
+import { FloatingText, IconButton, MenuButton } from "../../components";
 
 const Container = styled.div`
-  background: ${colors.background};
+  background: ${base.background};
   color: white;
   height: 100vh;
   width: 100vw;
-`;
-
-const Glass = styled(Box)`
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
 `;
 
 const HTML = ({ children }) => {
@@ -54,7 +49,10 @@ const BlinkingCursor = styled.div`
 `;
 export const Home = () => (
   <Container>
-    <MenuButton />
+    {/* <MenuButton /> */}
+    <IconButton Icon={Github} size={"1.563rem"} onClick />
+    <IconButton Icon={LinkedIn} size={"1.563rem"} />
+    <IconButton Icon={DownloadCV} size={"1.563rem"} />
     <HTML>{"<h1>"}</HTML>
     <Box fontSize={"4rem"}>Robert Mercado</Box>
     <HTML>{"</h1>"}</HTML>
