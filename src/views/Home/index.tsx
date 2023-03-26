@@ -50,7 +50,7 @@ const BlinkingCursor = styled.div`
 export const Home = () => (
   <Container>
     {/* <MenuButton /> */}
-    <a href={"https://github.com/DarkseidOmega"} target={"_blank"} rel="noreferrer">
+    <a href={"https://github.com/BitwiseMercenary"} target={"_blank"} rel="noreferrer">
       <IconButton Icon={Github} size={"1.563rem"} />
     </a>
     <a href={"https://www.linkedin.com/in/the-robert-mercado"} target={"_blank"} rel="noreferrer">
