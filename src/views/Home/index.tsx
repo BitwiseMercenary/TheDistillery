@@ -50,9 +50,15 @@ const BlinkingCursor = styled.div`
 export const Home = () => (
   <Container>
     {/* <MenuButton /> */}
-    <IconButton Icon={Github} size={"1.563rem"} onClick />
-    <IconButton Icon={LinkedIn} size={"1.563rem"} />
-    <IconButton Icon={DownloadCV} size={"1.563rem"} />
+    <a href={"https://github.com/DarkseidOmega"} target={"_blank"} rel="noreferrer">
+      <IconButton Icon={Github} size={"1.563rem"} />
+    </a>
+    <a href={"https://www.linkedin.com/in/the-robert-mercado"} target={"_blank"} rel="noreferrer">
+      <IconButton Icon={LinkedIn} size={"1.563rem"} />
+    </a>
+    <a href={"/Resume V6 Full.pdf"} target={"_blank"} rel="noreferrer">
+      <IconButton Icon={DownloadCV} size={"1.563rem"} />
+    </a>
     <HTML>{"<h1>"}</HTML>
     <Box fontSize={"4rem"}>Robert Mercado</Box>
     <HTML>{"</h1>"}</HTML>

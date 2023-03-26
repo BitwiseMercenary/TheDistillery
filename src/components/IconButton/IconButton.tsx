@@ -26,7 +26,7 @@ const StyledButton = styled(MuiIconButton)`
   }
 
   > svg {
-    transition: all 0.5s ease;
+    transition: all 1s ease;
   }
   :hover {
     > svg {
