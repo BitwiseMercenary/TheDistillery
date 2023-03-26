@@ -1,27 +1,22 @@
 import React from "react";
-import { Switch, Route, HashRouter } from "react-router-dom";
+import { Route, HashRouter, Routes } from "react-router-dom";
 
 import "./App.css";
-import { Home } from "./web";
+import { Home, Resume } from "@views/index";
 import { Route as RoutePath } from "./constants";
-import { Resume } from "./web/Resume/Resume";
 
 function App() {
-    return (
-        /* GitHub Pages doesn’t support routers that use the HTML5 pushState history API under the hood */
-        <HashRouter>
-            <div className="App">
-                <Switch>
-                    <Route exact path={RoutePath.HOME}>
-                        <Home />
-                    </Route>
-                    <Route exact path={RoutePath.RESUME}>
-                        <Resume />
-                    </Route>
-                </Switch>
-            </div>
-        </HashRouter>
-    );
+  return (
+    /* GitHub Pages doesn’t support routers that use the HTML5 pushState history API under the hood */
+    <div className="App">
+      <HashRouter>
+        <Routes>
+          <Route path={RoutePath.HOME} element={<Home />} />
+          <Route path={RoutePath.RESUME} element={<Resume />} />
+        </Routes>
+      </HashRouter>
+    </div>
+  );
 }
 
 export default App;
