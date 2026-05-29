@@ -1,22 +1,5 @@
 import styled from "@emotion/styled";
 
-const shadowEffect = ({ bottom }) => `
-::after {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: ${bottom};
-    left: 20%;
-    height: 10%;
-    width: 100%;
-    // box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-    //background-color: rgba(113, 113, 113, 0.25);
-
-    //transform: translate(-50%, 0);
-    transition: transform 1s;
-  }
-  `;
 
 interface Props {
   fontSize: string;

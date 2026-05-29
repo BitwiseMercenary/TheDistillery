@@ -1,8 +1,7 @@
-import React from "react";
 import { IconButton, styled } from "@mui/material";
 import { keyframes } from "@emotion/react";
 
-import { ReactComponent as RmLogo } from "@assets/Rm.svg";
+import RmLogo from "@assets/Rm.svg?react";
 
 const enterKeyframe = keyframes`
   0% {

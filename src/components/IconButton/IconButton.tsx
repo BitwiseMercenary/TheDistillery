@@ -1,4 +1,3 @@
-import React from "react";
 import { IconButton as MuiIconButton, styled } from "@mui/material";
 import { keyframes } from "@emotion/react";
 import { base, focus } from "@constants/colors";
