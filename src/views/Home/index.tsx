@@ -1,14 +1,13 @@
-import React from "react";
 import styled from "@emotion/styled";
-import { supaBigFontSize, regular, fontNames } from "@constants/typography";
+import { fontNames } from "@constants/typography";
 import { base } from "@constants/colors";
 import { Box } from "@mui/material";
 
-import { ReactComponent as Github } from "@assets/Github.svg";
-import { ReactComponent as LinkedIn } from "@assets/LinkedIn.svg";
-import { ReactComponent as DownloadCV } from "@assets/DownloadCV.svg";
+import Github from "@assets/Github.svg?react";
+import LinkedIn from "@assets/LinkedIn.svg?react";
+import DownloadCV from "@assets/DownloadCV.svg?react";
 
-import { FloatingText, IconButton, MenuButton } from "../../components";
+import { FloatingText, IconButton } from "../../components";
 
 const Container = styled.div`
   background: ${base.background};
@@ -19,7 +18,7 @@ const Container = styled.div`
 
 const HTML = ({ children }) => {
   return (
-    <Box fontFamily={fontNames.Inconsolata} color={"#8E8E8E83"} display={"flex"}>
+    <Box sx={{ fontFamily: fontNames.Inconsolata, color: "#8E8E8E83", display: "flex" }}>
       <FloatingText bottom="1rem" fontSize="1rem">
         {children}
       </FloatingText>
@@ -60,11 +59,11 @@ export const Home = () => (
       <IconButton Icon={DownloadCV} size={"1.563rem"} />
     </a>
     <HTML>{"<h1>"}</HTML>
-    <Box fontSize={"4rem"}>Robert Mercado</Box>
+    <Box sx={{ fontSize: "4rem" }}>Robert Mercado</Box>
     <HTML>{"</h1>"}</HTML>
     <HTML>{"<p>"}</HTML>
-    <Box fontSize={"1rem"}>Plan. Design. Build. Lead.</Box>
-    <Box fontSize={"1rem"}>Repeat.</Box>
+    <Box sx={{ fontSize: "1rem" }}>Plan. Design. Build. Lead.</Box>
+    <Box sx={{ fontSize: "1rem" }}>Repeat.</Box>
     <HTML>
       {"</p>"} <BlinkingCursor />
     </HTML>

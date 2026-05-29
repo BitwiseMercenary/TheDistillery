@@ -1,16 +1,16 @@
-import React from "react";
-
+import { useNavigate } from "react-router-dom";
 import { Route } from "../constants";
-import { ReactComponent as TsFileIcon } from "@assets/TSX.svg";
+import TsFileIcon from "@assets/TSX.svg?react";
 
-const TsFileNavButton = ({ dataId, destination, text }) => {
+const TsFileNavButton = ({ dataId, destination, text }: { dataId: string; destination: Route | null; text: string }) => {
+  const navigate = useNavigate();
   return (
     <button
       id={dataId}
       key={dataId}
       onClick={() => {
         if (destination) {
-          // history.push(destination);
+          navigate(destination);
         } else {
           window.alert("working on it...");
         }

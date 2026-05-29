@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="64" height="64" viewBox="0 0 64 64" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.3</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 32.5 32.5)"  >
+<g style=""   >
+		<g transform="matrix(1 0 0 1 6.05 5.35)"  >
+<linearGradient id="SVGID_37" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="37.132" y1="19.1904" x2="39.8363" y2="52.9347">
+<stop offset="9.987260000000001%" style="stop-color:rgb(8,124,250);stop-opacity: 1"/>
+<stop offset="46.02%" style="stop-color:rgb(7,154,246);stop-opacity: 1"/>
+<stop offset="84.54%" style="stop-color:rgb(7,195,242);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_37); fill-rule: nonzero; opacity: 1;"  transform=" translate(-38.05, -37.35)" d="M 64 17.1 L 60.9 40.7 L 59.3 51.2 L 38.2 64 L 12.1 44 L 43.9 10.7 L 64 17.1 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 7.7 27.65)"  >
+<linearGradient id="SVGID_38" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="39.7856" y1="60.1153" x2="40.3158" y2="60.8847">
+<stop offset="28.59%" style="stop-color:rgb(8,124,250);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(7,154,246);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_38); fill-rule: nonzero; opacity: 1;"  transform=" translate(-39.7, -59.65)" d="M 38.2 58.7 L 38.2999 60.5999 H 40.4 L 41.2 59.5 L 38.2 58.7 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 28.25 15.45)"  >
+<linearGradient id="SVGID_39" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="59.1347" y1="55.499" x2="65.0879" y2="37.562">
+<stop offset="11.84%" style="stop-color:rgb(39,166,246);stop-opacity: 1"/>
+<stop offset="24.18%" style="stop-color:rgb(47,153,245);stop-opacity: 1"/>
+<stop offset="91.97%" style="stop-color:rgb(87,83,242);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_39); fill-rule: nonzero; opacity: 1;"  transform=" translate(-60.25, -47.45)" d="M 57.7 50 L 60.9 40.7 L 62.7999 54.2 L 57.7 50 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 5.25 -9.1)"  >
+<linearGradient id="SVGID_40" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="65.2579" y1="3.6506" x2="28.0505" y2="26.1499">
+<stop offset="28.599999999999998%" style="stop-color:rgb(10,239,255);stop-opacity: 1"/>
+<stop offset="32.92%" style="stop-color:rgb(9,222,250);stop-opacity: 1"/>
+<stop offset="39.660000000000004%" style="stop-color:rgb(7,202,244);stop-opacity: 1"/>
+<stop offset="44.2%" style="stop-color:rgb(7,195,242);stop-opacity: 1"/>
+<stop offset="50.14999999999999%" style="stop-color:rgb(7,172,245);stop-opacity: 1"/>
+<stop offset="57.489999999999995%" style="stop-color:rgb(8,151,247);stop-opacity: 1"/>
+<stop offset="65.68%" style="stop-color:rgb(8,136,249);stop-opacity: 1"/>
+<stop offset="75.28%" style="stop-color:rgb(8,127,250);stop-opacity: 1"/>
+<stop offset="89.81%" style="stop-color:rgb(8,124,250);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_40); fill-rule: nonzero; opacity: 1;"  transform=" translate(-37.25, -22.9)" d="M 64 17.1 L 27.1 42.2 L 10.5 44.8 L 43.9 1 L 64 17.1 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 8.4 -21.3)"  >
+<linearGradient id="SVGID_41" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="40.3616" y1="-0.4608" x2="40.3616" y2="24.2184">
+<stop offset="20.7%" style="stop-color:rgb(2,197,254);stop-opacity: 1"/>
+<stop offset="31.7%" style="stop-color:rgb(4,172,253);stop-opacity: 1"/>
+<stop offset="44.35%" style="stop-color:rgb(6,151,251);stop-opacity: 1"/>
+<stop offset="58.45%" style="stop-color:rgb(7,136,251);stop-opacity: 1"/>
+<stop offset="74.99%" style="stop-color:rgb(8,127,250);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(8,124,250);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_41); fill-rule: nonzero; opacity: 1;"  transform=" translate(-40.4, -10.7)" d="M 36.9 10.5 L 43.9 1 L 42.7 20.4 L 36.9 10.5 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -13 4.6)"  >
+<linearGradient id="SVGID_42" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="10.3228" y1="30.5871" x2="15.8411" y2="35.7563">
+<stop offset="0%" style="stop-color:rgb(255,88,28);stop-opacity: 1"/>
+<stop offset="19.18%" style="stop-color:rgb(255,81,36);stop-opacity: 1"/>
+<stop offset="49.47%" style="stop-color:rgb(254,63,59);stop-opacity: 1"/>
+<stop offset="78.51%" style="stop-color:rgb(254,40,87);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_42); fill-rule: nonzero; opacity: 1;"  transform=" translate(-19, -36.6)" d="M 10.3 44.6 L 0.699951 37.7 L 9.89995 28.6 L 37.2999 39.7 L 10.3 44.6 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -4.35 18.15)"  >
+<linearGradient id="SVGID_43" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="17.4725" y1="43.5758" x2="26.7744" y2="53.5932">
+<stop offset="45.739999999999995%" style="stop-color:rgb(255,20,157);stop-opacity: 1"/>
+<stop offset="53.6%" style="stop-color:rgb(239,26,178);stop-opacity: 1"/>
+<stop offset="69.83%" style="stop-color:rgb(200,43,233);stop-opacity: 1"/>
+<stop offset="75.74%" style="stop-color:rgb(184,49,255);stop-opacity: 1"/>
+<stop offset="83.88%" style="stop-color:rgb(163,58,254);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(110,81,253);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_43); fill-rule: nonzero; opacity: 1;"  transform=" translate(-27.65, -50.15)" d="M 26 55.4 L 5.19995 62.4 L 10.4 47.7 L 35.9 37.9 L 50.0999 46.6 L 26 55.4 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -11.05 -25.25)"  >
+<linearGradient id="SVGID_44" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="19.4854" y1="-1.6472" x2="22.4491" y2="11.3191">
+<stop offset="2.76342%" style="stop-color:rgb(255,222,23);stop-opacity: 1"/>
+<stop offset="27.6%" style="stop-color:rgb(253,182,13);stop-opacity: 1"/>
+<stop offset="59.39%" style="stop-color:rgb(252,128,29);stop-opacity: 1"/>
+<stop offset="65.32%" style="stop-color:rgb(252,122,37);stop-opacity: 1"/>
+<stop offset="74.69%" style="stop-color:rgb(253,106,60);stop-opacity: 1"/>
+<stop offset="86.28%" style="stop-color:rgb(254,79,97);stop-opacity: 1"/>
+<stop offset="97.6%" style="stop-color:rgb(255,49,140);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_44); fill-rule: nonzero; opacity: 1;"  transform=" translate(-20.95, -6.75)" d="M 20.1 13.5 L 9.30005 0 L 30.2001 2.5 L 32.6 9.3 L 20.1 13.5 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -19.85 -20.85)"  >
+<linearGradient id="SVGID_46" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="6.73632" y1="9.9138" x2="15.7996" y2="14.048">
+<stop offset="28.89%" style="stop-color:rgb(255,222,23);stop-opacity: 1"/>
+<stop offset="98.74000000000001%" style="stop-color:rgb(255,255,255);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_46); fill-rule: nonzero; opacity: 1;"  transform=" translate(-12.15, -11.15)" d="M 12.5 22.3 L 5.40002 22.1 L 9.30002 0 L 18.9 2.7 L 12.5 22.3 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -5.75 0.25)"  >
+<linearGradient id="SVGID_47" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="4.9173" y1="22.6194" x2="49.2717" y2="45.6947">
+<stop offset="24.64%" style="stop-color:rgb(254,40,87);stop-opacity: 1"/>
+<stop offset="29.2%" style="stop-color:rgb(254,38,95);stop-opacity: 1"/>
+<stop offset="36.41%" style="stop-color:rgb(254,31,118);stop-opacity: 1"/>
+<stop offset="45.34%" style="stop-color:rgb(255,21,155);stop-opacity: 1"/>
+<stop offset="45.739999999999995%" style="stop-color:rgb(255,20,157);stop-opacity: 1"/>
+<stop offset="53.6%" style="stop-color:rgb(239,26,178);stop-opacity: 1"/>
+<stop offset="69.83%" style="stop-color:rgb(200,43,233);stop-opacity: 1"/>
+<stop offset="75.74%" style="stop-color:rgb(184,49,255);stop-opacity: 1"/>
+<stop offset="81.10000000000001%" style="stop-color:rgb(163,58,254);stop-opacity: 1"/>
+<stop offset="92.15%" style="stop-color:rgb(108,82,253);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(65,100,252);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_47); fill-rule: nonzero; opacity: 1;"  transform=" translate(-26.25, -32.25)" d="M 52.5 43.1 L 34.6 39.3 L 0 25.4 L 12.7 21.4 L 52.5 43.1 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -23.1 -19.3)"  >
+<linearGradient id="SVGID_49" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="4.4865" y1="12.5818" x2="13.1325" y2="18.1272">
+<stop offset="4.33729%" style="stop-color:rgb(255,210,95);stop-opacity: 1"/>
+<stop offset="28.89%" style="stop-color:rgb(254,188,155);stop-opacity: 1"/>
+<stop offset="61.73%" style="stop-color:rgb(252,156,240);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(253,94,215);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_49); fill-rule: nonzero; opacity: 1;"  transform=" translate(-8.9, -12.7)" d="M 9.3 0 L 0 25.4 L 11.8 22.3 L 12.7 21.4 L 17.8 6 L 9.3 0 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -1.35 -11.4)"  >
+<linearGradient id="SVGID_48" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="14.6691" y1="13.05" x2="39.7125" y2="30.9382">
+<stop offset="0.8233050000000001%" style="stop-color:rgb(252,53,227);stop-opacity: 1"/>
+<stop offset="21.64%" style="stop-color:rgb(241,44,213);stop-opacity: 1"/>
+<stop offset="41.05%" style="stop-color:rgb(235,39,205);stop-opacity: 1"/>
+<stop offset="49.84%" style="stop-color:rgb(222,42,218);stop-opacity: 1"/>
+<stop offset="77.77%" style="stop-color:rgb(184,49,255);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(109,81,253);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_48); fill-rule: nonzero; opacity: 1;"  transform=" translate(-30.65, -20.6)" d="M 17.8 6 L 12.7 21.4 L 37.7999 35.1 L 38.2999 35.2 L 48.5999 27.5 L 17.8 6 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -12.1 14.55)"  >
+<linearGradient id="SVGID_50" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="-2.59835" y1="28.8493" x2="37.4313" y2="68.0258">
+<stop offset="2.26617%" style="stop-color:rgb(252,128,29);stop-opacity: 1"/>
+<stop offset="24.67%" style="stop-color:rgb(252,126,32);stop-opacity: 1"/>
+<stop offset="27.6%" style="stop-color:rgb(252,119,42);stop-opacity: 1"/>
+<stop offset="32.53%" style="stop-color:rgb(253,100,68);stop-opacity: 1"/>
+<stop offset="38.81%" style="stop-color:rgb(254,70,110);stop-opacity: 1"/>
+<stop offset="42.730000000000004%" style="stop-color:rgb(255,49,140);stop-opacity: 1"/>
+<stop offset="49.24%" style="stop-color:rgb(234,56,150);stop-opacity: 1"/>
+<stop offset="62.760000000000005%" style="stop-color:rgb(178,72,174);stop-opacity: 1"/>
+<stop offset="81.94%" style="stop-color:rgb(90,99,214);stop-opacity: 1"/>
+<stop offset="98.59%" style="stop-color:rgb(8,124,250);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_50); fill-rule: nonzero; opacity: 1;"  transform=" translate(-19.9, -46.55)" d="M 5.19995 62.4 L 13.1 30.7 L 34.5999 39.2999 L 5.19995 62.4 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -14.35 12.9)"  >
+<linearGradient id="SVGID_51" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="7.21465" y1="28.9583" x2="19.8479" y2="50.7888">
+<stop offset="0.44279799999999997%" style="stop-color:rgb(255,222,23);stop-opacity: 1"/>
+<stop offset="5.25354%" style="stop-color:rgb(254,203,18);stop-opacity: 1"/>
+<stop offset="10.93%" style="stop-color:rgb(253,187,14);stop-opacity: 1"/>
+<stop offset="15.42%" style="stop-color:rgb(253,182,13);stop-opacity: 1"/>
+<stop offset="23.51%" style="stop-color:rgb(253,174,15);stop-opacity: 1"/>
+<stop offset="35.709999999999994%" style="stop-color:rgb(252,154,21);stop-opacity: 1"/>
+<stop offset="47.24%" style="stop-color:rgb(252,128,29);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(254,65,118);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_51); fill-rule: nonzero; opacity: 1;"  transform=" translate(-17.65, -44.9)" d="M 34.5999 39.3 L 22.6 28.9 L 6.29995 27.4 L 0.699951 37.7 L 12.4 33 L 12.5 32.9 L 5.19995 62.4 L 34.5999 39.3 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 5.08 -3.87)"  >
+<linearGradient id="SVGID_45" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="17.3547" y1="11.3787" x2="62.0868" y2="46.8913">
+<stop offset="0%" style="stop-color:rgb(254,40,87);stop-opacity: 1"/>
+<stop offset="5.57468%" style="stop-color:rgb(254,37,95);stop-opacity: 1"/>
+<stop offset="14.37%" style="stop-color:rgb(255,31,118);stop-opacity: 1"/>
+<stop offset="22.82%" style="stop-color:rgb(255,22,146);stop-opacity: 1"/>
+<stop offset="28.9%" style="stop-color:rgb(241,27,167);stop-opacity: 1"/>
+<stop offset="41.43%" style="stop-color:rgb(205,41,222);stop-opacity: 1"/>
+<stop offset="48.28%" style="stop-color:rgb(184,49,255);stop-opacity: 1"/>
+<stop offset="58.099999999999994%" style="stop-color:rgb(122,76,253);stop-opacity: 1"/>
+<stop offset="74.8%" style="stop-color:rgb(8,124,250);stop-opacity: 1"/>
+<stop offset="97.45%" style="stop-color:rgb(7,165,245);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_45); fill-rule: nonzero; opacity: 1;"  transform=" translate(-36.75, -27.8)" d="M 60.9 40.7 L 30.2 2.5 L 18.9 2.6 L 12.6 21.2 L 52.5 43.1 L 45.8 53.1 L 59.3 51.2 L 60.9 40.7 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 7.25 17.4)"  >
+<linearGradient id="SVGID_52" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="33.526" y1="40.2126" x2="45.2066" y2="58.8213">
+<stop offset="2.11218%" style="stop-color:rgb(177,73,175);stop-opacity: 1"/>
+<stop offset="8.31639%" style="stop-color:rgb(145,83,189);stop-opacity: 1"/>
+<stop offset="21.86%" style="stop-color:rgb(63,107,226);stop-opacity: 1"/>
+<stop offset="30.42%" style="stop-color:rgb(8,124,250);stop-opacity: 1"/>
+<stop offset="79.42%" style="stop-color:rgb(7,195,242);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_52); fill-rule: nonzero; opacity: 1;"  transform=" translate(-39.25, -49.4)" d="M 52.5 43.1 L 41.4 59.5 L 26 55.5 L 34.6 39.3 L 52.5 43.1 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -5.75 0.25)"  >
+<linearGradient id="SVGID_53" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="4.9173" y1="22.6194" x2="49.2717" y2="45.6947">
+<stop offset="24.64%" style="stop-color:rgb(254,40,87);stop-opacity: 1"/>
+<stop offset="29.2%" style="stop-color:rgb(254,38,95);stop-opacity: 1"/>
+<stop offset="36.41%" style="stop-color:rgb(254,31,118);stop-opacity: 1"/>
+<stop offset="45.34%" style="stop-color:rgb(255,21,155);stop-opacity: 1"/>
+<stop offset="45.739999999999995%" style="stop-color:rgb(255,20,157);stop-opacity: 1"/>
+<stop offset="53.6%" style="stop-color:rgb(239,26,178);stop-opacity: 1"/>
+<stop offset="69.83%" style="stop-color:rgb(200,43,233);stop-opacity: 1"/>
+<stop offset="75.74%" style="stop-color:rgb(184,49,255);stop-opacity: 1"/>
+<stop offset="81.10000000000001%" style="stop-color:rgb(163,58,254);stop-opacity: 1"/>
+<stop offset="92.15%" style="stop-color:rgb(108,82,253);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(65,100,252);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_53); fill-rule: nonzero; opacity: 1;"  transform=" translate(-26.25, -32.25)" d="M 52.5 43.1 L 34.6 39.3 L 0 25.4 L 12.7 21.4 L 52.5 43.1 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 18.5 25.6)"  >
+<linearGradient id="SVGID_55" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="55.443" y1="46.2471" x2="48.7412" y2="63.6484">
+<stop offset="21.57%" style="stop-color:rgb(7,195,242);stop-opacity: 1"/>
+<stop offset="32.37%" style="stop-color:rgb(4,177,236);stop-opacity: 1"/>
+<stop offset="45.76%" style="stop-color:rgb(1,161,231);stop-opacity: 1"/>
+<stop offset="56.13%" style="stop-color:rgb(0,155,229);stop-opacity: 1"/>
+<stop offset="57.45%" style="stop-color:rgb(1,152,231);stop-opacity: 1"/>
+<stop offset="67.78%" style="stop-color:rgb(5,138,241);stop-opacity: 1"/>
+<stop offset="79.92%" style="stop-color:rgb(7,129,247);stop-opacity: 1"/>
+<stop offset="98.29%" style="stop-color:rgb(8,126,249);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_55); fill-rule: nonzero; opacity: 1;"  transform=" translate(-50.5, -57.6)" d="M 59.2999 51.2 L 45.4 53.0999 L 38.2 64 L 62.7999 54.2 L 59.2999 51.2 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -13.1 -3.75)"  >
+<linearGradient id="SVGID_54" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="8.9832" y1="24.7079" x2="29.4434" y2="36.0885">
+<stop offset="0.629908%" style="stop-color:rgb(255,69,237);stop-opacity: 1"/>
+<stop offset="17.66%" style="stop-color:rgb(255,53,216);stop-opacity: 1"/>
+<stop offset="33.52%" style="stop-color:rgb(255,36,192);stop-opacity: 1"/>
+<stop offset="73.49%" style="stop-color:rgb(234,35,202);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(217,35,209);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_54); fill-rule: nonzero; opacity: 1;"  transform=" translate(-18.9, -28.25)" d="M 12.7 21.4 L 0 25.4 L 37.8 35.1 L 12.7 21.4 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 3.75 26.6)"  >
+<linearGradient id="SVGID_56" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="27.4234" y1="53.4055" x2="42.7674" y2="58.8912">
+<stop offset="15.290000000000001%" style="stop-color:rgb(8,124,250);stop-opacity: 1"/>
+<stop offset="63.43%" style="stop-color:rgb(0,154,229);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(7,195,242);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_56); fill-rule: nonzero; opacity: 1;"  transform=" translate(-35.75, -58.6)" d="M 38.2 64 L 45.6 53.2 L 25.9 55.5999 L 38.2 64 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 4.8 -9.25)"  >
+<linearGradient id="SVGID_57" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="39.8167" y1="12.9916" x2="35.0484" y2="34.9527">
+<stop offset="0%" style="stop-color:rgb(255,24,141);stop-opacity: 1"/>
+<stop offset="31.879999999999995%" style="stop-color:rgb(216,46,200);stop-opacity: 1"/>
+<stop offset="44.11%" style="stop-color:rgb(204,48,204);stop-opacity: 1"/>
+<stop offset="66.28%" style="stop-color:rgb(172,53,215);stop-opacity: 1"/>
+<stop offset="89.81%" style="stop-color:rgb(131,60,229);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_57); fill-rule: nonzero; opacity: 1;"  transform=" translate(-36.8, -22.75)" d="M 23.8 27.4 L 37.7001 35 L 49.8 26.8 L 36.7001 10.5 L 23.8 27.4 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 4.2 -6.45)"  >
+<linearGradient id="SVGID_58" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="29.6245" y1="18.1703" x2="38.9264" y2="31.2883">
+<stop offset="0%" style="stop-color:rgb(255,24,141);stop-opacity: 1"/>
+<stop offset="31.879999999999995%" style="stop-color:rgb(216,46,200);stop-opacity: 1"/>
+<stop offset="44.11%" style="stop-color:rgb(204,48,204);stop-opacity: 1"/>
+<stop offset="66.28%" style="stop-color:rgb(172,53,215);stop-opacity: 1"/>
+<stop offset="89.81%" style="stop-color:rgb(131,60,229);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_58); fill-rule: nonzero; opacity: 1;"  transform=" translate(-36.2, -25.55)" d="M 48.6 27.5 L 32.3 16.1 L 23.8 27.4 L 37.7001 35 L 48.1 27.9 L 48.6 27.5 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0 0)"  >
+<linearGradient id="SVGID_59" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="11.3828" y1="15.1916" x2="52.3297" y2="48.574">
+<stop offset="0%" style="stop-color:rgb(82,23,19);stop-opacity: 1"/>
+<stop offset="8.0028%" style="stop-color:rgb(69,19,16);stop-opacity: 1"/>
+<stop offset="29.89%" style="stop-color:rgb(39,11,9);stop-opacity: 1"/>
+<stop offset="51.4%" style="stop-color:rgb(17,5,4);stop-opacity: 1"/>
+<stop offset="72.18%" style="stop-color:rgb(4,1,1);stop-opacity: 1"/>
+<stop offset="91.38%" style="stop-color:rgb(0,0,0);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_59); fill-rule: nonzero; opacity: 1;"  transform=" translate(-32, -32)" d="M 52 12 H 12 V 52 H 52 V 12 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 17.07 15.72)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(35,31,32); fill-rule: nonzero; opacity: 0.04;"  transform=" translate(-49.08, -47.73)" d="M 51.3 52 L 52 51.9 V 43.45 L 46.15 52 H 51.3 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0 -4.52)"  >
+<linearGradient id="SVGID_60" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="12" y1="27.4751" x2="52" y2="27.4751">
+<stop offset="24.64%" style="stop-color:rgb(254,40,87);stop-opacity: 1"/>
+<stop offset="29.2%" style="stop-color:rgb(254,38,95);stop-opacity: 1"/>
+<stop offset="36.41%" style="stop-color:rgb(254,31,118);stop-opacity: 1"/>
+<stop offset="45.34%" style="stop-color:rgb(255,21,155);stop-opacity: 1"/>
+<stop offset="45.739999999999995%" style="stop-color:rgb(255,20,157);stop-opacity: 1"/>
+<stop offset="53.6%" style="stop-color:rgb(239,26,178);stop-opacity: 1"/>
+<stop offset="69.83%" style="stop-color:rgb(200,43,233);stop-opacity: 1"/>
+<stop offset="75.74%" style="stop-color:rgb(184,49,255);stop-opacity: 1"/>
+<stop offset="81.10000000000001%" style="stop-color:rgb(163,58,254);stop-opacity: 1"/>
+<stop offset="92.15%" style="stop-color:rgb(108,82,253);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(65,100,252);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_60); fill-rule: nonzero; opacity: 0.04;"  transform=" translate(-32, -27.48)" d="M 37.6 12 H 16 L 12.8 21.35 L 50.3 41.9 L 13 21.55 L 12 21.85 V 30.1 L 34.6 39.2 L 52 42.95 V 42.85 V 29.9 L 37.6 12 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0.4 -4.57)"  >
+<linearGradient id="SVGID_61" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="12.8183" y1="27.4295" x2="52.0001" y2="27.4295">
+<stop offset="11.18%" style="stop-color:rgb(247,148,29);stop-opacity: 1"/>
+<stop offset="13.74%" style="stop-color:rgb(248,140,37);stop-opacity: 1"/>
+<stop offset="17.8%" style="stop-color:rgb(249,117,58);stop-opacity: 1"/>
+<stop offset="22.84%" style="stop-color:rgb(251,80,93);stop-opacity: 1"/>
+<stop offset="28.63%" style="stop-color:rgb(255,28,140);stop-opacity: 1"/>
+<stop offset="29.28%" style="stop-color:rgb(255,22,146);stop-opacity: 1"/>
+<stop offset="40.31%" style="stop-color:rgb(234,26,147);stop-opacity: 1"/>
+<stop offset="46.77%" style="stop-color:rgb(219,29,147);stop-opacity: 1"/>
+<stop offset="55.43%" style="stop-color:rgb(159,40,149);stop-opacity: 1"/>
+<stop offset="72.28999999999999%" style="stop-color:rgb(33,64,154);stop-opacity: 1"/>
+<stop offset="86.71%" style="stop-color:rgb(34,47,92);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(35,31,32);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_61); fill-rule: nonzero; opacity: 0.04;"  transform=" translate(-32.4, -27.43)" d="M 16 12 L 12.8 21.35 L 52 42.85 V 29.9 L 37.6 12 H 16 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -17.98 -14.78)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(249,237,50); fill-rule: nonzero; opacity: 0.04;"  transform=" translate(-14.03, -17.23)" d="M 12 12 V 22.45 H 12.05 L 12.95 21.5 L 16.05 12 H 12 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0 0.25)"  >
+<linearGradient id="SVGID_62" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="12" y1="32.2387" x2="52" y2="32.2387">
+<stop offset="8.78508%" style="stop-color:rgb(254,40,87);stop-opacity: 1"/>
+<stop offset="12.83%" style="stop-color:rgb(254,38,95);stop-opacity: 1"/>
+<stop offset="19.23%" style="stop-color:rgb(254,31,118);stop-opacity: 1"/>
+<stop offset="27.16%" style="stop-color:rgb(255,21,155);stop-opacity: 1"/>
+<stop offset="27.51%" style="stop-color:rgb(255,20,157);stop-opacity: 1"/>
+<stop offset="41.67%" style="stop-color:rgb(178,24,113);stop-opacity: 1"/>
+<stop offset="54.269999999999996%" style="stop-color:rgb(116,27,78);stop-opacity: 1"/>
+<stop offset="64.89%" style="stop-color:rgb(72,29,53);stop-opacity: 1"/>
+<stop offset="73.1%" style="stop-color:rgb(45,30,38);stop-opacity: 1"/>
+<stop offset="77.91%" style="stop-color:rgb(35,31,32);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_62); fill-rule: nonzero; opacity: 0.12;"  transform=" translate(-32, -32.25)" d="M 12 21.85 V 30.1 L 34.6 39.2001 L 52 42.9501 V 42.85 L 13 21.55 L 12 21.85 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -7.13 -3.7)"  >
+<linearGradient id="SVGID_63" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="15.8719" y1="26.7393" x2="31.5361" y2="35.4522">
+<stop offset="0.629908%" style="stop-color:rgb(255,69,237);stop-opacity: 1"/>
+<stop offset="17.66%" style="stop-color:rgb(255,53,216);stop-opacity: 1"/>
+<stop offset="33.52%" style="stop-color:rgb(255,36,192);stop-opacity: 1"/>
+<stop offset="45.1%" style="stop-color:rgb(234,36,176);stop-opacity: 1"/>
+<stop offset="69.16%" style="stop-color:rgb(178,35,136);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(99,33,79);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_63); fill-rule: nonzero; opacity: 0.12;"  transform=" translate(-24.88, -28.3)" d="M 12 28.4501 L 37.75 35.05 L 13 21.55 L 12 21.85 V 28.4501 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -5.55 13.6)"  >
+<linearGradient id="SVGID_64" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="18.2835" y1="45.5993" x2="34.5802" y2="45.5993">
+<stop offset="45.739999999999995%" style="stop-color:rgb(255,20,157);stop-opacity: 1"/>
+<stop offset="53.6%" style="stop-color:rgb(239,26,178);stop-opacity: 1"/>
+<stop offset="69.83%" style="stop-color:rgb(200,43,233);stop-opacity: 1"/>
+<stop offset="75.74%" style="stop-color:rgb(184,49,255);stop-opacity: 1"/>
+<stop offset="83.88%" style="stop-color:rgb(163,58,254);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(110,81,253);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_64); fill-rule: nonzero; opacity: 0.12;"  transform=" translate(-26.45, -45.6)" d="M 27.75 52 L 34.6 39.2 L 18.3 52 H 27.75 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -19.63 2.45)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(247,148,29); fill-rule: nonzero; opacity: 0.12;"  transform=" translate(-12.38, -34.45)" d="M 12 36 L 12.75 32.9 L 12.65 33 L 12 33.25 V 36 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -8.7 9.05)"  >
+<linearGradient id="SVGID_65" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="12" y1="41.0548" x2="34.5802" y2="41.0548">
+<stop offset="0.44279799999999997%" style="stop-color:rgb(255,222,23);stop-opacity: 1"/>
+<stop offset="3.86836%" style="stop-color:rgb(254,203,18);stop-opacity: 1"/>
+<stop offset="7.90912%" style="stop-color:rgb(253,187,14);stop-opacity: 1"/>
+<stop offset="11.110000000000001%" style="stop-color:rgb(253,182,13);stop-opacity: 1"/>
+<stop offset="16.73%" style="stop-color:rgb(253,174,15);stop-opacity: 1"/>
+<stop offset="25.21%" style="stop-color:rgb(252,154,21);stop-opacity: 1"/>
+<stop offset="33.23%" style="stop-color:rgb(252,128,29);stop-opacity: 1"/>
+<stop offset="73.74000000000001%" style="stop-color:rgb(190,30,45);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_65); fill-rule: nonzero; opacity: 0.12;"  transform=" translate(-23.3, -41.05)" d="M 12 33.25 L 12.65 33 L 12.75 32.9 L 12 36 V 52 H 18.3 L 34.6 39.2 L 12 30.1 V 33.25 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 7.88 13.6)"  >
+<linearGradient id="SVGID_66" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="27.7583" y1="45.5993" x2="52" y2="45.5993">
+<stop offset="0%" style="stop-color:rgb(8,124,250);stop-opacity: 1"/>
+<stop offset="79.42%" style="stop-color:rgb(35,31,32);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_66); fill-rule: nonzero; opacity: 0.12;"  transform=" translate(-39.88, -45.6)" d="M 27.75 52 H 46.15 L 52 43.45 V 42.95 L 34.6 39.2 L 27.75 52 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 12.8 -12.57)"  >
+<linearGradient id="SVGID_67" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="68.3219" y1="50.0793" x2="42.8329" y2="8.80345">
+<stop offset="34.86%" style="stop-color:rgb(53,149,243);stop-opacity: 1"/>
+<stop offset="40.19%" style="stop-color:rgb(52,144,235);stop-opacity: 1"/>
+<stop offset="48.65%" style="stop-color:rgb(50,132,212);stop-opacity: 1"/>
+<stop offset="59.18%" style="stop-color:rgb(47,111,174);stop-opacity: 1"/>
+<stop offset="71.35000000000001%" style="stop-color:rgb(43,82,123);stop-opacity: 1"/>
+<stop offset="84.76%" style="stop-color:rgb(37,45,57);stop-opacity: 1"/>
+<stop offset="89.51%" style="stop-color:rgb(35,31,32);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_67); fill-rule: nonzero; opacity: 0.04;"  transform=" translate(-44.8, -19.43)" d="M 49.55 26.85 L 52 25.2 V 12 H 37.6 L 49.55 26.85 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0.4 -4.57)"  >
+<linearGradient id="SVGID_68" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="12.8183" y1="27.4295" x2="52.0001" y2="27.4295">
+<stop offset="11.18%" style="stop-color:rgb(247,148,29);stop-opacity: 1"/>
+<stop offset="13.74%" style="stop-color:rgb(248,140,37);stop-opacity: 1"/>
+<stop offset="17.8%" style="stop-color:rgb(249,117,58);stop-opacity: 1"/>
+<stop offset="22.84%" style="stop-color:rgb(251,80,93);stop-opacity: 1"/>
+<stop offset="28.63%" style="stop-color:rgb(255,28,140);stop-opacity: 1"/>
+<stop offset="29.28%" style="stop-color:rgb(255,22,146);stop-opacity: 1"/>
+<stop offset="40.31%" style="stop-color:rgb(234,26,147);stop-opacity: 1"/>
+<stop offset="46.77%" style="stop-color:rgb(219,29,147);stop-opacity: 1"/>
+<stop offset="55.43%" style="stop-color:rgb(159,40,149);stop-opacity: 1"/>
+<stop offset="72.28999999999999%" style="stop-color:rgb(33,64,154);stop-opacity: 1"/>
+<stop offset="86.71%" style="stop-color:rgb(34,47,92);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(35,31,32);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_68); fill-rule: nonzero; opacity: 0.15;"  transform=" translate(-32.4, -27.43)" d="M 16 12 L 12.8 21.35 L 52 42.85 V 29.9 L 37.6 12 H 16 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -17.98 -14.78)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(249,237,50); fill-rule: nonzero; opacity: 0.15;"  transform=" translate(-14.03, -17.23)" d="M 12 12 V 22.45 H 12.05 L 12.95 21.5 L 16.05 12 H 12 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -7.5 13.7)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-24.5, -45.7)" d="M 32 44.45 H 17 V 46.95 H 32 V 44.45 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 6.97 -8.5)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-39.3, -24.5)" d="M 31.8 17 H 35.4 L 39.3 23.3 L 43.3 17 H 46.8 V 32 H 43.6 V 22.2 L 39.3 28.6 H 39.2001 L 35.1 22.3 V 32 H 31.8 V 17 Z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -9.17 -8.5)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-23.5, -24.5)" d="M 17 17 H 23.9 C 25.8 17 27.3 17.5 28.3 18.5 C 29.2 19.4 29.6 20.5 29.6 21.9 C 29.6 23.1 29.3 24.1 28.7 24.9 C 28.1 25.7 27.3 26.2 26.4 26.6 L 30 32 H 26.1 L 23 27.4 H 20.3 V 32 H 17 V 17 Z M 23.6 24.3 C 24.4 24.3 25 24.1 25.5 23.7 C 25.9 23.3 26.2 22.8 26.2 22.2 C 26.2 21.5 26 20.9 25.5 20.6 C 25 20.1 24.4 20 23.6 20 H 20.3 V 24.3 H 23.6 Z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>
