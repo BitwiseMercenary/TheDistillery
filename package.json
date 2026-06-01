@@ -34,7 +34,7 @@
     "typescript-eslint": "^8.x",
     "vite": "^6.x",
     "vite-plugin-svgr": "^4.x",
-    "vitest": "^3.x"
+    "vitest": "^4.x"
   },
   "scripts": {
     "dev": "vite",
