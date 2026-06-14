@@ -28,7 +28,7 @@ const IconRow = styled.div`
 // Gray faux-markup styling, shared by tag lines and the icon placeholders.
 const TagLine = ({ children }: { children: ReactNode }) => (
   <Box sx={{ fontFamily: fontNames.Inconsolata, color: MARKUP_GRAY, display: "flex" }}>
-    <FloatingText bottom="1rem" fontSize="1rem">
+    <FloatingText fontSize="1rem">
       {children}
     </FloatingText>
   </Box>
