@@ -1,0 +1,3 @@
+# Netlify's nvm reads .nvmrc literally; a CRLF makes the version unresolvable.
+# Force LF so editing on Windows/WSL can't reintroduce the break.
+.nvmrc text eol=lf
