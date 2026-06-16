@@ -6,7 +6,6 @@ import { Route as RoutePath } from "./constants";
 
 function App() {
   return (
-    /* 404.html in dist mirrors index.html so GitHub Pages serves the SPA shell on direct hits */
     <div className="App">
       <BrowserRouter>
         <Routes>

@@ -1,0 +1,3 @@
+# esbuild ships a postinstall that links its platform binary; allow it to run.
+allowBuilds:
+  esbuild: true

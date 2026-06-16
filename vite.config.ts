@@ -1,4 +1,4 @@
-/// <reference types="vitest" />
+/// <reference types="vitest/config" />
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import svgr from "vite-plugin-svgr";
@@ -21,5 +21,8 @@ export default defineConfig({
     environment: "jsdom",
     globals: true,
     setupFiles: ["./src/setupTests.ts"],
+    // MUI imports react-transition-group via an extensionless directory path
+    // that Node's native ESM resolver rejects; inline it so Vite resolves it.
+    server: { deps: { inline: ["@mui/material"] } },
   },
 });

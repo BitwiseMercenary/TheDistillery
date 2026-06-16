@@ -1,6 +1,14 @@
+import type { FunctionComponent, SVGProps } from "react";
 import { IconButton as MuiIconButton, styled } from "@mui/material";
 import { keyframes } from "@emotion/react";
 import { base, focus } from "@constants/colors";
+
+type SvgIcon = FunctionComponent<SVGProps<SVGSVGElement> & { title?: string }>;
+
+interface Props {
+  Icon: SvgIcon;
+  size: string;
+}
 
 const enterKeyframe = keyframes`
   0% {
@@ -34,7 +42,7 @@ const StyledButton = styled(MuiIconButton)`
   }
 `;
 
-export const IconButton = ({ Icon, size }) => {
+export const IconButton = ({ Icon, size }: Props) => {
   return (
     <StyledButton>
       <Icon height={size} width={size} />

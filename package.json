@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@11.6.0",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
@@ -27,7 +28,6 @@
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.x",
-    "gh-pages": "^6.3.0",
     "jsdom": "^26.x",
     "prettier": "^3.8.3",
     "typescript": "^5.9.x",
@@ -38,11 +38,11 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "deploy": "vite build && cp dist/index.html dist/404.html && echo 'robertmercado.dev' > ./dist/CNAME && gh-pages -d dist",
     "lint": "eslint src",
     "format": "prettier --write 'src/**/*.{ts,tsx,css}'"
   }
