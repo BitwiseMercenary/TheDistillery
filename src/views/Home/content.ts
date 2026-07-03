@@ -23,9 +23,9 @@ export interface IconSegment extends BaseSegment {
   label: string;
 }
 
-/** A line of faux-markup: a tag, the title, or body copy. */
+/** A line of faux-markup: a tag, the title, body copy, or a comment. */
 export interface TextSegment extends BaseSegment {
-  kind: "tag" | "title" | "body";
+  kind: "tag" | "title" | "body" | "comment";
 }
 
 export type Segment = IconSegment | TextSegment;
@@ -44,4 +44,8 @@ export const SEGMENTS: readonly Segment[] = [
   { kind: "body", text: "Plan. Design. Build. Lead." },
   { kind: "body", text: "Repeat." },
   { kind: "tag", text: "</p>" },
+  { kind: "comment", text: "<!-- distilled in dc -->" },
 ];
+
+/** Typed by the idle caret half a minute after the page settles. */
+export const EGG: TextSegment = { kind: "comment", text: "<!-- still here? -->" };

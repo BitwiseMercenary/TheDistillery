@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 
 /**
  * A deliberate typo woven into a segment: type `after` correctly, fat-finger
@@ -147,6 +147,10 @@ const project = <T extends Typeable>(segments: readonly T[], { revealed, typo }:
   return rendered;
 };
 
+/** The segments projected as they'll appear once fully typed. */
+export const completedProjection = <T extends Typeable>(segments: readonly T[]) =>
+  project(segments, { revealed: totalChars(segments), typo: "" });
+
 /**
  * Types `segments` out with a human, uneven cadence — fumbling and correcting
  * the typos declared on them — and returns the segments projected into a
@@ -154,6 +158,7 @@ const project = <T extends Typeable>(segments: readonly T[], { revealed, typo }:
  */
 export const useTypewriter = <T extends Typeable>(segments: readonly T[], keystrokeMs = DEFAULT_KEYSTROKE_MS) => {
   const total = useMemo(() => totalChars(segments), [segments]);
+  const [run, setRun] = useState(0);
   const [state, setState] = useState<TypingState>(() =>
     shouldReduceMotion() ? { revealed: total, typo: "" } : { revealed: 0, typo: "" },
   );
@@ -164,6 +169,7 @@ export const useTypewriter = <T extends Typeable>(segments: readonly T[], keystr
       return;
     }
 
+    setState({ revealed: 0, typo: "" });
     const frames = buildTimeline(segments, keystrokeMs);
     let timer: ReturnType<typeof setTimeout>;
     let next = 0;
@@ -177,7 +183,13 @@ export const useTypewriter = <T extends Typeable>(segments: readonly T[], keystr
     };
     tick();
     return () => clearTimeout(timer);
-  }, [segments, keystrokeMs, total]);
+  }, [segments, keystrokeMs, total, run]);
 
-  return useMemo(() => ({ segments: project(segments, state), done: state.revealed >= total }), [segments, state, total]);
+  /** Rewind and type the whole sequence out again. */
+  const replay = useCallback(() => setRun(run => run + 1), []);
+
+  return useMemo(
+    () => ({ segments: project(segments, state), done: state.revealed >= total, replay }),
+    [segments, state, total, replay],
+  );
 };
