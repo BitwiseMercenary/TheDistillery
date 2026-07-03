@@ -3,5 +3,5 @@ import App from "./App";
 
 test("renders the home view", () => {
   render(<App />);
-  expect(screen.getByText(/Robert Mercado/i)).toBeInTheDocument();
+  expect(screen.getByRole("heading", { name: /Robert Mercado/i })).toBeInTheDocument();
 });
